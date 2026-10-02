@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathbank: AI lab report interpreter | Bankata.AI</title>
+<meta name="description" content="Upload a lab report. Get a clear reading, the flags and the trend. Photograph or upload any lab report. Pathbank reads it, interprets every value for the patient&#x27;s age and sex, marks what is urgent and compares it with earlier reports.">
+<link rel="canonical" href="https://drbankata.github.io/Bankata.AI/pathbank/">
+<meta name="theme-color" content="#13203a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bankata.AI">
+<meta property="og:title" content="Pathbank: AI lab report interpreter | Bankata.AI">
+<meta property="og:description" content="Upload a lab report. Get a clear reading, the flags and the trend. Photograph or upload any lab report. Pathbank reads it, interprets every value for the patient&#x27;s age and sex, marks what is urgent and compares it with earlier reports.">
+<meta property="og:url" content="https://drbankata.github.io/Bankata.AI/pathbank/">
+<meta property="og:image" content="https://drbankata.github.io/Bankata.AI/assets/img/og-pathbank.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Pathbank", "applicationCategory": "BusinessApplication", "operatingSystem": "Web, Android, iOS (browser)", "description": "Photograph or upload any lab report. Pathbank reads it, interprets every value for the patient's age and sex, marks what is urgent and compares it with earlier reports.", "url": "https://pathbank.vercel.app/", "publisher": {"@type": "Organization", "name": "Bankata.AI"}, "offers": {"@type": "Offer", "price": "300", "priceCurrency": "INR", "description": "Per user per month"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which reports can I upload?", "acceptedAnswer": {"@type": "Answer", "text": "Standard laboratory reports as PDFs or photos, including scanned pages."}}, {"@type": "Question", "name": "Is a doctor still needed?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Pathbank explains results and flags concerns; treatment decisions stay with a doctor."}}, {"@type": "Question", "name": "Can I share a report without giving login access?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Share links are read-only and expire after 72 hours."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap head-in">
+<a class="brand" href=".././" aria-label="Bankata.AI home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#5148e0"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#0c8a68"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0a78b4"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#a53c73"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#9a7314"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#c2410c"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Bankata<span>.AI</span></span></a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span class="sr-only">Open menu</span></button>
+<nav id="site-nav" class="site-nav" aria-label="Main">
+<ul class="nav-top">
+<li class="has-menu"><span class="nav-label" tabindex="0">Products</span><ul class="nav-products"><li><a href="../radbank/"><span class="pi" data-c="rad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></svg></span><span><b>Radbank</b><small>AI reporting copilot for diagnostic specialists</small></span></a></li><li><a href="../fullcurebank/"><span class="pi" data-c="fcb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M4.5 3H7.5M14.5 3h3"/><path d="M11 14v2a4.5 4.5 0 0 0 9 0v-1.5"/><circle cx="20" cy="12.5" r="2"/></svg></span><span><b>Fullcurebank</b><small>AI clinical decision support and hospital suite</small></span></a></li><li><a href="../pathbank/" aria-current="page"><span class="pi" data-c="path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v12.5a2 2 0 0 0 4 0V3"/><path d="M10 10.5h4"/><path d="M6 21h12"/></svg></span><span><b>Pathbank</b><small>AI lab report interpreter</small></span></a></li><li><a href="../treatbank/"><span class="pi" data-c="treat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="11" height="14" rx="1.5"/><path d="M8 20h9.5A1.5 1.5 0 0 0 19 18.5V7"/><path d="M8 7.5h5M8 10.5h5M8 13.5h3"/></svg></span><span><b>Treatbank</b><small>Patient history compiler</small></span></a></li><li><a href="../legalbank/"><span class="pi" data-c="legal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></svg></span><span><b>Legalbank</b><small>AI operating system for legal work</small></span></a></li><li><a href="../facility-management/"><span class="pi" data-c="fac"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V5.5A1.5 1.5 0 0 1 5.5 4h7A1.5 1.5 0 0 1 14 5.5V21"/><path d="M14 10h4.5a1.5 1.5 0 0 1 1.5 1.5V21M2.5 21h19"/><path d="M7.5 8h3M7.5 11.5h3M7.5 15h3"/></svg></span><span><b>Facility Management SaaS</b><small>Housekeeping and facility management platform</small></span></a></li></ul></li>
+<li><a href="../pricing/">Pricing</a></li>
+<li><a href="../#videos">Videos</a></li>
+<li><a href="../about/">About</a></li>
+<li><a href="../contact/">Contact</a></li>
+<li class="nav-cta"><a class="btn btn-ink" href="../contact/?type=Book%20a%20demo">Book a demo</a></li>
+</ul>
+</nav>
+</div></header>
+<main id="main">
+
+<section class="p-hero" data-c="path"><div class="wrap p-hero-grid">
+<div><p class="crumbs"><a href=".././">Bankata.AI</a> / Pathbank</p>
+<div class="band-kicker"><span class="pi pi-lg" data-c="path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v12.5a2 2 0 0 0 4 0V3"/><path d="M10 10.5h4"/><path d="M6 21h12"/></svg></span><span>AI lab report interpreter</span></div>
+<h1>Upload a lab report. Get a clear reading, the flags and the trend.</h1>
+<p class="lede">Photograph or upload any lab report. Pathbank reads it, interprets every value for the patient&#x27;s age and sex, marks what is urgent and compares it with earlier reports.</p>
+<div class="btns"><a class="btn btn-c" href="https://pathbank.vercel.app/" target="_blank" rel="noopener">Open Pathbank <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></svg></a><a class="btn btn-line" href="https://pathbank.vercel.app/signup" target="_blank" rel="noopener">Create an account</a></div>
+<p class="price-line" style="margin-top:16px">From <strong><span class="num">₹300</span></strong> per user per month, with a <span class="num">₹100</span> trial.</p>
+</div>
+<div class="board" data-c="path" aria-label="Example">
+<div class="board-body" style="min-height:0">
+<p class="board-label"><span class="dot"></span>You upload</p>
+<p class="board-input">HbA<span class="num">1</span>c <span class="num">8.2%</span>, fasting glucose <span class="num">164</span> mg/dL, LDL cholesterol <span class="num">162</span> mg/dL</p>
+<p class="board-label"><span class="dot"></span>Interpretation</p>
+<ul class="board-out"><li class="on"><b>HbA<span class="num">1</span>c</b><span><mark>High, in the diabetic range</mark></span></li><li class="on"><b>LDL cholesterol</b><span><mark>High</mark></span></li><li class="on"><b>Trend</b><span class="same">Compared with the previous report</span></li></ul></div>
+<div class="board-foot"><span class="tag">Example. Highlighted lines are what the AI changed.</span></div>
+</div>
+</div></section>
+
+<section class="section" data-c="path" aria-labelledby="h-for"><div class="wrap">
+<div class="sec-head"><h2 id="h-for">Who it is for</h2></div>
+<ul class="for-list"><li>Doctors reviewing reports</li><li>Laboratories</li><li>Patients and caregivers</li></ul></div></section>
+
+<section class="section white" data-c="path" id="features" aria-labelledby="h-feat"><div class="wrap">
+<div class="sec-head"><h2 id="h-feat">What Pathbank does</h2></div>
+<div class="feat"><div><h3>Photo or PDF upload</h3><p>Text is read from scanned pages and phone photos as well as digital PDFs.</p></div><div><h3>Age- and sex-aware reading</h3><p>The patient&#x27;s age, sex and history are used to interpret every parameter.</p></div><div><h3>Urgency flags</h3><p>Values that need attention are marked so nothing important is missed.</p></div><div><h3>Trends across reports</h3><p>Compare several reports side by side with charts of each parameter over time.</p></div><div><h3>Ask about the report</h3><p>Follow-up questions in a chat about that specific report.</p></div><div><h3>Share and download</h3><p>Read-only share links that expire after <span class="num">72</span> hours, and PDF downloads.</p></div><div><h3>Roles for everyone</h3><p>Separate views for doctors, labs, patients and caregivers.</p></div><div><h3>Quality tools for labs</h3><p>NABL-oriented quality dashboards for laboratories.</p></div></div></div></section>
+
+<section class="section" data-c="path" aria-labelledby="h-how"><div class="wrap">
+<div class="sec-head"><h2 id="h-how">How it works</h2></div>
+<ol class="steps row"><li><b>Add the patient</b><span>Age, sex and any relevant history.</span></li><li><b>Upload the report</b><span>A PDF or a phone photo.</span></li><li><b>Read the interpretation</b><span>Flags, plain-language reading and the trend.</span></li><li><b>Share</b><span>Download a PDF or send a <span class="num">72</span>-hour link.</span></li></ol></div></section>
+
+<section class="section white" data-c="path" id="videos" aria-labelledby="h-v"><div class="wrap">
+<div class="sec-head"><h2 id="h-v">How-to videos</h2><p>How-to videos are being recorded.</p></div>
+<div style="max-width:620px"><div class="soon" data-c="path"><div><span class="pi" data-c="path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v12.5a2 2 0 0 0 4 0V3"/><path d="M10 10.5h4"/><path d="M6 21h12"/></svg></span><b>Video walkthrough coming soon</b><p>Want to see Pathbank now? We can show you live.</p><a class="btn btn-c" href="../contact/?product=pathbank&amp;type=Book%20a%20demo">Book a live demo</a></div></div></div></div></section>
+
+<section class="section" data-c="path" id="pricing" aria-labelledby="h-pr"><div class="wrap">
+<div class="sec-head"><h2 id="h-pr">Pricing</h2></div>
+<div class="plans"><div class="plan feature"><h3>All-Inclusive AI</h3><div><span class="amt"><span class="num">₹300</span></span> <span class="unit">per user per month</span></div><p>No API keys to manage. Each user gets <span class="num">₹100</span> platform access plus <span class="num">₹200</span> of AI credits a month, of which <span class="num">₹140</span> is usable (a <span class="num">70%</span> hard stop). Unused credits expire monthly.</p><ul class="tiers"><li><b>Individual</b><span><span class="num">1</span> user</span></li><li><b>Team</b><span><span class="num">2</span> to <span class="num">20</span> users</span></li><li><b>Hospital</b><span><span class="num">21</span> users and more</span></li></ul></div><div class="plan"><h3>Bring your own AI keys</h3><div><span class="amt"><span class="num">₹300</span></span> <span class="unit">per user per month</span></div><p>You pay the platform fee only. AI runs on your own API keys, so there is no AI cap from us.</p><ul class="tiers"><li><b>Individual</b><span><span class="num">1</span> user</span></li><li><b>Team</b><span><span class="num">2</span> to <span class="num">20</span> users</span></li><li><b>Hospital</b><span><span class="num">21</span> users and more</span></li></ul></div></div><div class="extras"><div class="extra" data-c="path"><b>Try it first</b><span class="amt-sm"><span class="num">₹100</span> one-time</span><p>Includes <span class="num">₹50</span> of AI credits, with every feature unlocked.</p></div></div><p class="small muted" style="margin-top:16px">Every plan is the same price per user; Team and Hospital plans add shared administration and support. Prices are taken from the Pathbank app and may change; the app shows the current price before you pay.</p><div class="btns" style="margin-top:14px"><a class="btn btn-c" href="https://pathbank.vercel.app/pricing" target="_blank" rel="noopener">See plans in Pathbank</a></div></div></section>
+
+<section class="section white" aria-labelledby="h-q"><div class="wrap">
+<div class="sec-head"><h2 id="h-q">Questions about Pathbank</h2></div>
+<div class="faq"><details><summary>Which reports can I upload?</summary><p>Standard laboratory reports as PDFs or photos, including scanned pages.</p></details><details><summary>Is a doctor still needed?</summary><p>Yes. Pathbank explains results and flags concerns; treatment decisions stay with a doctor.</p></details><details><summary>Can I share a report without giving login access?</summary><p>Yes. Share links are read-only and expire after <span class="num">72</span> hours.</p></details></div></div></section>
+
+<section class="section" data-c="path" id="enquire" aria-labelledby="h-e"><div class="wrap two">
+<div><h2 id="h-e">Ask about Pathbank</h2><p class="lede">Book a demo, ask a question or request pricing. The form is already set to Pathbank.</p></div>
+<div class="form-card"><form class="form enquiry" novalidate>
+<div class="half"><div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+<div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div></div>
+<div class="half"><div class="field"><label for="f-phone">Phone or WhatsApp <span class="opt">(optional)</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
+<div class="field"><label for="f-org">Organisation <span class="opt">(optional)</span></label><input id="f-org" name="org" autocomplete="organization"></div></div>
+<div class="half"><div class="field"><label for="f-product">Product</label><select id="f-product" name="product"><option value="Not sure yet">Not sure yet</option><option value="radbank">Radbank</option><option value="fullcurebank">Fullcurebank</option><option value="pathbank" selected>Pathbank</option><option value="treatbank">Treatbank</option><option value="legalbank">Legalbank</option><option value="facility-management">Facility Management SaaS</option><option value="Several products">Several products</option></select></div>
+<div class="field"><label for="f-type">I would like to</label><select id="f-type" name="type"><option>Book a demo</option><option>Pricing question</option><option>Subscribe to updates</option><option>Partnership or reselling</option><option>Support</option><option>Something else</option></select></div></div>
+<div class="field"><label for="f-role">Your role <span class="opt">(optional)</span></label><input id="f-role" name="role" placeholder="For example: radiologist, hospital administrator, advocate"></div>
+<div class="field"><label for="f-msg">Message <span class="opt">(optional)</span></label><textarea id="f-msg" name="message"></textarea></div>
+<label class="check"><input type="checkbox" name="updates" checked> Send me occasional product updates. You can unsubscribe at any time.</label>
+<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="form-msg" role="status" hidden></div>
+<div><button class="btn btn-ink" type="submit">Send message</button></div>
+<p class="form-note">We use your details only to reply to you. See our <a href="../privacy/">privacy notice</a>.</p>
+</form></div></div></section>
+
+<section class="section white" aria-labelledby="h-o"><div class="wrap">
+<div class="cta-band" style="margin-bottom:48px"><div><h2>Ready to try Pathbank?</h2><p>Create an account in a minute and start from your phone.</p></div>
+<div class="btns"><a class="btn btn-light" href="https://pathbank.vercel.app/signup" target="_blank" rel="noopener">Create an account</a><a class="btn btn-ghost-light" href="https://pathbank.vercel.app/" target="_blank" rel="noopener">Open the app</a></div></div>
+<h2 id="h-o" style="font-size:1.4rem">Other Bankata products</h2>
+<div class="others"><a href="../radbank/"><span class="pi" data-c="rad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></svg></span>Radbank</a><a href="../fullcurebank/"><span class="pi" data-c="fcb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M4.5 3H7.5M14.5 3h3"/><path d="M11 14v2a4.5 4.5 0 0 0 9 0v-1.5"/><circle cx="20" cy="12.5" r="2"/></svg></span>Fullcurebank</a><a href="../treatbank/"><span class="pi" data-c="treat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="11" height="14" rx="1.5"/><path d="M8 20h9.5A1.5 1.5 0 0 0 19 18.5V7"/><path d="M8 7.5h5M8 10.5h5M8 13.5h3"/></svg></span>Treatbank</a><a href="../legalbank/"><span class="pi" data-c="legal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></svg></span>Legalbank</a><a href="../facility-management/"><span class="pi" data-c="fac"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V5.5A1.5 1.5 0 0 1 5.5 4h7A1.5 1.5 0 0 1 14 5.5V21"/><path d="M14 10h4.5a1.5 1.5 0 0 1 1.5 1.5V21M2.5 21h19"/><path d="M7.5 8h3M7.5 11.5h3M7.5 15h3"/></svg></span>Facility Management SaaS</a></div></div></section>
+
+</main>
+<footer class="site-foot"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href=".././" aria-label="Bankata.AI home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#5148e0"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#0c8a68"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0a78b4"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#a53c73"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#9a7314"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#c2410c"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Bankata<span>.AI</span></span></a><p style="margin-top:14px;max-width:34ch">AI work tools for doctors, labs, hospitals, lawyers and facility companies, built in India by a doctor.</p>
+<p><a href="https://www.linkedin.com/in/dr-sudhanshu-bankata-3354ba4/" target="_blank" rel="noopener">Dr Sudhanshu Bankata on LinkedIn</a></p></div>
+<div><h4>Products</h4><ul><li><a href="../radbank/">Radbank</a></li><li><a href="../fullcurebank/">Fullcurebank</a></li><li><a href="../pathbank/">Pathbank</a></li><li><a href="../treatbank/">Treatbank</a></li><li><a href="../legalbank/">Legalbank</a></li><li><a href="../facility-management/">Facility Management SaaS</a></li></ul></div>
+<div><h4>Open the apps</h4><ul><li><a href="https://radbank.vercel.app/" target="_blank" rel="noopener">Open Radbank</a></li><li><a href="https://fullcurebank.vercel.app/" target="_blank" rel="noopener">Open Fullcurebank</a></li><li><a href="https://pathbank.vercel.app/" target="_blank" rel="noopener">Open Pathbank</a></li><li><a href="https://treatbank.vercel.app/" target="_blank" rel="noopener">Open Treatbank</a></li><li><a href="https://legalbank.vercel.app/" target="_blank" rel="noopener">Open Legalbank</a></li><li><a href="https://housekeeping-rose.vercel.app/login" target="_blank" rel="noopener">Open Facility Management</a></li></ul></div>
+<div><h4>Company</h4><ul><li><a href="../about/">About</a></li><li><a href="../pricing/">Pricing</a></li><li><a href="../contact/">Contact</a></li><li><a href="../contact/?type=Subscribe%20to%20updates">Get product updates</a></li><li><a href="../privacy/">Privacy</a></li><li><a href="../terms/">Terms</a></li></ul></div>
+</div>
+<div class="foot-base"><span>&copy; <span class="num" data-year>2026</span> Bankata.AI. All product names belong to their owner.</span><span>Made in Noida, India</span></div>
+</div></footer>
+<div class="float"><a class="wa" data-contact="whatsapp" hidden href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 1a4 4 0 0 1-2-2l1-1-1-2z"/></svg></a><button class="to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button></div>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>
