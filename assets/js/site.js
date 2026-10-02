@@ -91,6 +91,7 @@
       var d = data[i];
       keys.forEach(function (k, j) { k.setAttribute("aria-selected", j === i ? "true" : "false"); k.tabIndex = j === i ? 0 : -1; });
       board.setAttribute("data-c", d.c);
+      if (board.parentNode.classList.contains("board-wrap")) board.parentNode.setAttribute("data-c", d.c);
       inLabel.textContent = d.in_label;
       outLabel.textContent = d.out_label;
       name.textContent = d.name;

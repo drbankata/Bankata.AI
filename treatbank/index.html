@@ -6,7 +6,7 @@
 <title>Treatbank: Patient history compiler | Bankata.AI</title>
 <meta name="description" content="A pile of old prescriptions and reports, turned into one clean patient history. Upload prescriptions, lab reports, discharge summaries and radiology reports together. Treatbank extracts the text, even from scans and handwriting, and builds a structured record you can question in a clinical chat.">
 <link rel="canonical" href="https://drbankata.github.io/Bankata.AI/treatbank/">
-<meta name="theme-color" content="#13203a">
+<meta name="theme-color" content="#0a0f2c">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Bankata.AI">
 <meta property="og:title" content="Treatbank: Patient history compiler | Bankata.AI">
@@ -17,7 +17,7 @@
 <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/site.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Treatbank", "applicationCategory": "BusinessApplication", "operatingSystem": "Web, Android, iOS (browser)", "description": "Upload prescriptions, lab reports, discharge summaries and radiology reports together. Treatbank extracts the text, even from scans and handwriting, and builds a structured record you can question in a clinical chat.", "url": "https://treatbank.vercel.app/", "publisher": {"@type": "Organization", "name": "Bankata.AI"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What documents work?", "acceptedAnswer": {"@type": "Answer", "text": "Prescriptions, lab reports, discharge summaries and radiology reports, as PDFs or images."}}, {"@type": "Question", "name": "Does it read handwriting?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, handwritten and scanned pages go through OCR. Very poor scans may need a check."}}, {"@type": "Question", "name": "Can I keep the result?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Reports are saved to your history and can be exported as PDF."}}]}</script>
@@ -25,7 +25,7 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap head-in">
-<a class="brand" href=".././" aria-label="Bankata.AI home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#5148e0"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#0c8a68"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0a78b4"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#a53c73"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#9a7314"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#c2410c"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Bankata<span>.AI</span></span></a>
+<a class="brand" href=".././" aria-label="Bankata.AI home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#6d5bff"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#10b981"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0ea5e9"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#e8458b"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#f5a524"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#ff6b35"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Bankata<span>.AI</span></span></a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span class="sr-only">Open menu</span></button>
 <nav id="site-nav" class="site-nav" aria-label="Main">
 <ul class="nav-top">
@@ -40,7 +40,7 @@
 </div></header>
 <main id="main">
 
-<section class="p-hero" data-c="treat"><div class="wrap p-hero-grid">
+<section class="p-hero aurora" data-c="treat"><div class="wrap p-hero-grid">
 <div><p class="crumbs"><a href=".././">Bankata.AI</a> / Treatbank</p>
 <div class="band-kicker"><span class="pi pi-lg" data-c="treat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="11" height="14" rx="1.5"/><path d="M8 20h9.5A1.5 1.5 0 0 0 19 18.5V7"/><path d="M8 7.5h5M8 10.5h5M8 13.5h3"/></svg></span><span>Patient history compiler</span></div>
 <h1>A pile of old prescriptions and reports, turned into one clean patient history.</h1>
@@ -48,17 +48,17 @@
 <div class="btns"><a class="btn btn-c" href="https://treatbank.vercel.app/" target="_blank" rel="noopener">Open Treatbank <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></svg></a><a class="btn btn-line" href="https://treatbank.vercel.app/auth/signup" target="_blank" rel="noopener">Create an account</a></div>
 <p class="price-line" style="margin-top:16px">Pricing on request, sized to your team.</p>
 </div>
-<div class="board" data-c="treat" aria-label="Example">
+<div class="board-wrap" data-c="treat"><div class="board" data-c="treat" aria-label="Example">
 <div class="board-body" style="min-height:0">
 <p class="board-label"><span class="dot"></span>You upload</p>
 <p class="board-input">Prescriptions, three discharge summaries and six lab reports from the last few years</p>
 <p class="board-label"><span class="dot"></span>Structured record</p>
 <ul class="board-out"><li class="on"><b>History</b><span><mark>Arranged in date order</mark></span></li><li class="on"><b>Medications</b><span><mark>Current list with doses</mark></span></li><li class="on"><b>Diagnoses and plan</b><span class="same">Summarised for the visit</span></li></ul></div>
 <div class="board-foot"><span class="tag">Example. Highlighted lines are what the AI changed.</span></div>
-</div>
+</div></div>
 </div></section>
 
-<section class="section" data-c="treat" aria-labelledby="h-for"><div class="wrap">
+<section class="section light" data-c="treat" aria-labelledby="h-for"><div class="wrap">
 <div class="sec-head"><h2 id="h-for">Who it is for</h2></div>
 <ul class="for-list"><li>Doctors seeing a new or complex patient</li><li>Second-opinion and referral clinics</li><li>Care coordinators</li></ul></div></section>
 
@@ -66,23 +66,23 @@
 <div class="sec-head"><h2 id="h-feat">What Treatbank does</h2></div>
 <div class="feat"><div><h3>Upload everything at once</h3><p>PDFs and images of prescriptions, lab reports, discharge summaries and radiology reports.</p></div><div><h3>Reads scans and handwriting</h3><p>Digital PDFs are read instantly; scanned and handwritten pages go through OCR.</p></div><div><h3>A structured record</h3><p>Patient details, chronological history, medications, investigations, diagnoses, summary and future plan.</p></div><div><h3>Clinical chat</h3><p>Ask questions about the compiled history and get answers grounded in it.</p></div><div><h3>Export and share</h3><p>Download the record as a PDF or share it with a link.</p></div><div><h3>Your own AI key</h3><p>Use your own API key, stored encrypted and used only when you run an analysis.</p></div></div></div></section>
 
-<section class="section" data-c="treat" aria-labelledby="h-how"><div class="wrap">
+<section class="section dark aurora" data-c="treat" aria-labelledby="h-how"><div class="wrap">
 <div class="sec-head"><h2 id="h-how">How it works</h2></div>
 <ol class="steps row"><li><b>Upload</b><span>Drop in the patient&#x27;s documents.</span></li><li><b>Extract</b><span>Text is pulled out, with OCR for scans.</span></li><li><b>Structure</b><span>The record is built section by section.</span></li><li><b>Ask</b><span>Use the chat for follow-up questions.</span></li></ol></div></section>
 
-<section class="section white" data-c="treat" id="videos" aria-labelledby="h-v"><div class="wrap">
+<section class="section light" data-c="treat" id="videos" aria-labelledby="h-v"><div class="wrap">
 <div class="sec-head"><h2 id="h-v">How-to videos</h2><p>How-to videos are being recorded.</p></div>
 <div style="max-width:620px"><div class="soon" data-c="treat"><div><span class="pi" data-c="treat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="11" height="14" rx="1.5"/><path d="M8 20h9.5A1.5 1.5 0 0 0 19 18.5V7"/><path d="M8 7.5h5M8 10.5h5M8 13.5h3"/></svg></span><b>Video walkthrough coming soon</b><p>Want to see Treatbank now? We can show you live.</p><a class="btn btn-c" href="../contact/?product=treatbank&amp;type=Book%20a%20demo">Book a live demo</a></div></div></div></div></section>
 
-<section class="section" data-c="treat" id="pricing" aria-labelledby="h-pr"><div class="wrap">
+<section class="section white" data-c="treat" id="pricing" aria-labelledby="h-pr"><div class="wrap">
 <div class="sec-head"><h2 id="h-pr">Pricing</h2></div>
 <div class="plan feature" data-c="treat"><h3>Pricing for your team</h3><p style="margin-top:0">Treatbank is priced to the size of your organisation. Tell us how many people will use it and we will send a quote.</p><div class="btns"><a class="btn btn-c" href="../contact/?product=treatbank&amp;type=Pricing%20question">Request pricing</a><a class="btn btn-line" href="https://treatbank.vercel.app/auth/signup" target="_blank" rel="noopener">Create an account</a></div></div></div></section>
 
-<section class="section white" aria-labelledby="h-q"><div class="wrap">
+<section class="section light" aria-labelledby="h-q"><div class="wrap">
 <div class="sec-head"><h2 id="h-q">Questions about Treatbank</h2></div>
 <div class="faq"><details><summary>What documents work?</summary><p>Prescriptions, lab reports, discharge summaries and radiology reports, as PDFs or images.</p></details><details><summary>Does it read handwriting?</summary><p>Yes, handwritten and scanned pages go through OCR. Very poor scans may need a check.</p></details><details><summary>Can I keep the result?</summary><p>Yes. Reports are saved to your history and can be exported as PDF.</p></details></div></div></section>
 
-<section class="section" data-c="treat" id="enquire" aria-labelledby="h-e"><div class="wrap two">
+<section class="section dark aurora" data-c="treat" id="enquire" aria-labelledby="h-e"><div class="wrap two">
 <div><h2 id="h-e">Ask about Treatbank</h2><p class="lede">Book a demo, ask a question or request pricing. The form is already set to Treatbank.</p></div>
 <div class="form-card"><form class="form enquiry" novalidate>
 <div class="half"><div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
@@ -109,7 +109,7 @@
 </main>
 <footer class="site-foot"><div class="wrap">
 <div class="foot-grid">
-<div><a class="brand" href=".././" aria-label="Bankata.AI home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#5148e0"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#0c8a68"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0a78b4"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#a53c73"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#9a7314"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#c2410c"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Bankata<span>.AI</span></span></a><p style="margin-top:14px;max-width:34ch">AI work tools for doctors, labs, hospitals, lawyers and facility companies, built in India by a doctor.</p>
+<div><a class="brand" href=".././" aria-label="Bankata.AI home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#6d5bff"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#10b981"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0ea5e9"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#e8458b"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#f5a524"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#ff6b35"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Bankata<span>.AI</span></span></a><p style="margin-top:14px;max-width:34ch">AI work tools for doctors, labs, hospitals, lawyers and facility companies, built in India by a doctor.</p>
 <p><a href="https://www.linkedin.com/in/dr-sudhanshu-bankata-3354ba4/" target="_blank" rel="noopener">Dr Sudhanshu Bankata on LinkedIn</a></p></div>
 <div><h4>Products</h4><ul><li><a href="../radbank/">Radbank</a></li><li><a href="../fullcurebank/">Fullcurebank</a></li><li><a href="../pathbank/">Pathbank</a></li><li><a href="../treatbank/">Treatbank</a></li><li><a href="../legalbank/">Legalbank</a></li><li><a href="../facility-management/">Facility Management SaaS</a></li></ul></div>
 <div><h4>Open the apps</h4><ul><li><a href="https://radbank.vercel.app/" target="_blank" rel="noopener">Open Radbank</a></li><li><a href="https://fullcurebank.vercel.app/" target="_blank" rel="noopener">Open Fullcurebank</a></li><li><a href="https://pathbank.vercel.app/" target="_blank" rel="noopener">Open Pathbank</a></li><li><a href="https://treatbank.vercel.app/" target="_blank" rel="noopener">Open Treatbank</a></li><li><a href="https://legalbank.vercel.app/" target="_blank" rel="noopener">Open Legalbank</a></li><li><a href="https://housekeeping-rose.vercel.app/login" target="_blank" rel="noopener">Open Facility Management</a></li></ul></div>
