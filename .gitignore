@@ -21,8 +21,8 @@
 !/privacy/
 !/terms/
 
-# Custom domain: un-comment ONLY on DNS switch day (see NOTES.md "Going live").
-# !/CNAME
+# Custom domain (see NOTES.md "Going live").
+!/CNAME
 
 # Never publish, even inside allowed folders
 **/NOTES.md

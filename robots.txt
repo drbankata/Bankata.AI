@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://drbankata.github.io/Bankata.AI/sitemap.xml
+Sitemap: https://lexmedix.in/sitemap.xml
