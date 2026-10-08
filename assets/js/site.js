@@ -14,7 +14,7 @@
         fields : our field names -> the Google Form's entry ids
         Empty action "" = the form explains that enquiries open soon. */
   var EMAIL = "bankata@gmail.com";
-  var WHATSAPP = "";
+  var WHATSAPP = "919354658966";
   var GOOGLE_FORM = {
     // Google Form "Bankata.AI enquiry" (edit link in NOTES.md)
     action: "https://docs.google.com/forms/d/e/1FAIpQLSebwJfBmqBTze4cPm7DdDu1-Zg7IDcGcerC1YKgAeXUaQDxkQ/formResponse",
