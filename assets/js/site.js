@@ -8,13 +8,14 @@
 
   /* ---------- SETTINGS (edit here) ----------
      EMAIL    : public contact email. Empty "" = no email shown anywhere.
-     WHATSAPP : WhatsApp number, digits only with country code (e.g. "91XXXXXXXXXX"). Empty "" = no WhatsApp shown.
+     WHATSAPP : WhatsApp Business short link ("https://wa.me/message/...", keeps the number out of the page; its
+                pre-typed message is set in the app), or a number, digits only with country code. Empty "" = no WhatsApp shown.
      GOOGLE_FORM : enquiries go straight to a Google Form (and its Google Sheet).
         action : the form's "formResponse" URL
         fields : our field names -> the Google Form's entry ids
         Empty action "" = the form explains that enquiries open soon. */
   var EMAIL = "bankata@gmail.com";
-  var WHATSAPP = "919354658966";
+  var WHATSAPP = "https://wa.me/message/MUAEVYCFK3YPB1";
   var GOOGLE_FORM = {
     // Google Form "Bankata.AI enquiry" (edit link in NOTES.md)
     action: "https://docs.google.com/forms/d/e/1FAIpQLSebwJfBmqBTze4cPm7DdDu1-Zg7IDcGcerC1YKgAeXUaQDxkQ/formResponse",
@@ -40,7 +41,8 @@
     if (!WHATSAPP) { el.hidden = true; return; }
     el.hidden = false;
     var a = el.tagName === "A" ? el : $("a", el);
-    if (a) a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent("Hello, I found Bankata.AI and would like to know more.");
+    if (a) a.href = /^https:/.test(WHATSAPP) ? WHATSAPP
+      : "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent("Hello, I found Bankata.AI and would like to know more.");
   });
   $$("[data-contact-any]").forEach(function (el) { el.hidden = !(EMAIL || WHATSAPP); });
 
