@@ -343,6 +343,8 @@ body.menu-open { overflow: hidden; }
 /* ---------- pricing ---------- */
 .plans { display: grid; gap: 18px; }
 @media (min-width: 900px) { .plans { grid-template-columns: 1fr 1fr; } }
+.plans > .plan:only-child { max-width: 640px; }
+@media (min-width: 900px) { .plans:has(> .plan:only-child) { grid-template-columns: 1fr; } }
 .plan { position: relative; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 30px; box-shadow: var(--lift); overflow: hidden; }
 .plan.feature { background: var(--night); color: var(--on-night-muted); border-color: transparent; isolation: isolate; }
 .plan.feature::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(70% 60% at 100% 0%, rgba(232,69,139,.45), transparent 70%), radial-gradient(60% 60% at 0% 100%, rgba(109,91,255,.5), transparent 70%); }
