@@ -561,3 +561,13 @@ body.menu-open { overflow: hidden; }
 .svc-m b { color: var(--ink); font-size: 1.1rem; line-height: 1.25; }
 .svc-m > span:last-child { font-size: .95rem; }
 .hero-chips em { font-style: normal; }
+
+/* ---------- about: education, credentials, books ---------- */
+.about-creds { font-weight: 650; color: var(--on-night); max-width: 52ch; margin: 18px 0 8px; padding-left: 14px; border-left: 3px solid var(--a4); }
+.edu > div { display: flex; flex-direction: column; }
+.edu > div:nth-child(1) .wi { background: linear-gradient(120deg, #6d5bff, #a78bfa); }
+.edu > div:nth-child(2) .wi { background: var(--grad-cool); }
+.edu > div:nth-child(3) .wi { background: var(--grad); }
+.edu > div:nth-child(4) .wi { background: linear-gradient(120deg, #10b981, #22d3ee); }
+.edu-inst { color: var(--white) !important; font-weight: 700; margin-bottom: 10px !important; }
+.edu-close { margin: 36px 0 0; max-width: 62ch; font-family: var(--display); font-size: clamp(1.4rem, 3.4vw, 2rem); line-height: 1.2; color: var(--white); }
