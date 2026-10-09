@@ -132,14 +132,16 @@ ul { padding-left: 1.2em; }
     radial-gradient(40% 40% at 75% 90%, rgba(109,91,255,.3), transparent 70%); }
 
 /* ---------- header ---------- */
-.site-head { position: sticky; top: 0; z-index: 50; background: rgba(10,15,44,.78); backdrop-filter: saturate(1.6) blur(14px); -webkit-backdrop-filter: saturate(1.6) blur(14px); border-bottom: 1px solid rgba(255,255,255,.08); }
+.site-head { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid rgba(255,255,255,.08); }
+/* the frosted glass lives on a layer: a backdrop-filter on the header itself would trap the fixed mobile menu inside the 70px bar */
+.site-head::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(10,15,44,.78); backdrop-filter: saturate(1.6) blur(14px); -webkit-backdrop-filter: saturate(1.6) blur(14px); }
 .head-in { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 70px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--white); font: 800 1.3rem/1 var(--body); letter-spacing: -.03em; }
 .brand-mark { width: 30px; height: 30px; flex: none; }
 .brand-word span { background: var(--grad-warm); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .nav-toggle { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--glass-line); background: var(--glass); color: var(--white); cursor: pointer; }
 .nav-toggle svg { width: 22px; height: 22px; }
-.site-nav { position: fixed; inset: 70px 0 0 0; background: var(--night); padding: 8px var(--gut) 32px; overflow-y: auto; display: none; border-top: 1px solid var(--glass-line); }
+.site-nav { position: fixed; top: 71px; left: 0; right: 0; bottom: 0; height: calc(100vh - 71px); height: calc(100dvh - 71px); overscroll-behavior: contain; background: var(--night); padding: 8px var(--gut) 32px; overflow-y: auto; display: none; border-top: 1px solid var(--glass-line); }
 .site-nav.open { display: block; }
 .site-nav > ul { list-style: none; margin: 0; padding: 0; }
 .site-nav a { color: var(--white); text-decoration: none; }
@@ -156,7 +158,7 @@ body.menu-open { overflow: hidden; }
 .site-nav .btn-ink, .site-nav .btn-ink[aria-current] { color: var(--white); }
 @media (min-width: 1100px) {
   .nav-toggle { display: none; }
-  .site-nav { position: static; display: block; background: none; padding: 0; overflow: visible; border: 0; }
+  .site-nav { position: static; display: block; height: auto; background: none; padding: 0; overflow: visible; border: 0; }
   .nav-top { display: flex; align-items: center; gap: 4px; }
   .nav-top > li { position: relative; }
   .nav-top > li > a, .nav-top > li > .nav-label { border: 0; padding: 10px 14px; font: 600 .98rem/1 var(--body); border-radius: 999px; }
