@@ -586,3 +586,23 @@ html { overflow-x: clip; }
 @media (max-width: 639px) {
   .live-grid, .svc-grid, .svc-mini, .cards, .vid-grid, .why, .feat, .for-list, .tele-pts, .extras, .plans { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* ---------- social follow buttons (footer row + Contact block) ---------- */
+.foot-follow { margin: 18px 0 10px; font-weight: 700; color: var(--white); }
+.social, .foot-grid .social { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.social a { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--glass-line); background: rgba(255,255,255,.05); color: var(--on-night); transition: border-color .2s, background .2s, color .2s; }
+.social a svg { width: 21px; height: 21px; }
+.social a:hover, .social a:focus-visible { color: var(--white); border-color: var(--white); background: rgba(255,255,255,.14); }
+.social-block { margin-top: 32px; }
+.social-block h2 { font-size: 1.3rem; margin: 0 0 8px; }
+.social-block p { margin: 0 0 16px; }
+.social-big { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+@media (min-width: 640px) { .social-big { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.social-big li { min-width: 0; }
+.social-big a { display: flex; align-items: center; gap: 12px; min-width: 0; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--glass-line); background: rgba(255,255,255,.05); color: var(--on-night); text-decoration: none; transition: border-color .2s, background .2s; }
+.social-big a:hover, .social-big a:focus-visible { border-color: var(--white); background: rgba(255,255,255,.12); }
+.social-big .si { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: rgba(255,255,255,.1); color: var(--white); }
+.social-big .si svg { width: 22px; height: 22px; }
+.social-big .st { min-width: 0; display: grid; }
+.social-big .st b { color: var(--white); }
+.social-big .st em { font-style: normal; font-size: .9rem; overflow-wrap: anywhere; }
