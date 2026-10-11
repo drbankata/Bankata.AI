@@ -211,6 +211,12 @@ body.menu-open { overflow: hidden; }
 .board-key { appearance: none; border: 0; background: transparent; padding: 12px 6px 11px; display: flex; flex-direction: column; align-items: center; gap: 6px; font: 700 .78rem/1.15 var(--body); color: var(--muted); cursor: pointer; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); position: relative; min-height: 76px; }
 .board-key:nth-child(3n) { border-right: 0; }
 .board-key:nth-child(n+4) { border-bottom: 0; }
+/* Large text: tab names shrink to fit the board instead of being clipped by it (2026-10-11).
+   16.2em / 29.4em = widest names per row (3 or 6 columns) with a small margin; 40px / 80px = key padding and borders.
+   At normal text the cap is above .78rem on every width, so nothing changes. */
+.board-keys { container-type: inline-size; }
+.board-key { font-size: min(.78rem, calc((100cqi - 40px) / 16.2)); }
+@media (min-width: 640px) { .board-key { font-size: min(.78rem, calc((100cqi - 80px) / 29.4)); } }
 .board-key .pi { width: 34px; height: 34px; border-radius: 10px; filter: saturate(.35) opacity(.75); box-shadow: none; transition: filter .25s; }
 .board-key:hover .pi { filter: none; }
 .board-key[aria-selected="true"] { color: var(--ink); background: var(--white); }
@@ -225,8 +231,12 @@ body.menu-open { overflow: hidden; }
 .board-input .caret { display: inline-block; width: 2px; height: 1.1em; background: var(--c); vertical-align: -0.15em; margin-left: 2px; animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 .board-out { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
-.board-out li { display: grid; grid-template-columns: minmax(96px, 34%) 1fr; gap: 12px; padding: 11px 14px; border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--white); font-size: .97rem; opacity: 0; transform: translateY(4px); transition: opacity .3s, transform .3s; }
+.board-out li { display: grid; grid-template-columns: minmax(96px, 34%) minmax(0, 1fr); gap: 12px; padding: 11px 14px; border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--white); font-size: .97rem; opacity: 0; transform: translateY(4px); transition: opacity .3s, transform .3s; }
 .board-out li.on { opacity: 1; transform: none; }
+/* Narrow box or large text: label above value instead of a cramped second column (2026-10-11).
+   em follows the text size, so this kicks in at 280 px normal text, 320 px at 125%, 360-412 px at 150%. */
+.board-out { container-type: inline-size; }
+@container (max-width: 14em) { .board-out li { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
 .board-out li b { color: var(--ink); font-weight: 700; }
 .board-out li mark { background: linear-gradient(transparent 10%, var(--marker) 10%, var(--marker) 90%, transparent 90%); color: var(--ink); padding: 0 .2em; font-weight: 600; }
 .board-out li span.same { color: var(--muted); }
