@@ -431,8 +431,8 @@ body.menu-open { overflow: hidden; }
 .others .pi { width: 36px; height: 36px; border-radius: 10px; }
 
 /* ---------- FAQ ---------- */
-.faq { max-width: 880px; display: grid; gap: 10px; }
-.faq details { background: var(--white); border: 1px solid var(--line); border-radius: var(--r); padding: 0 22px; transition: box-shadow .2s; }
+.faq { max-width: 880px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.faq details { min-width: 0; overflow-wrap: anywhere; background: var(--white); border: 1px solid var(--line); border-radius: var(--r); padding: 0 22px; transition: box-shadow .2s; }
 .faq details[open] { box-shadow: var(--lift); }
 .faq summary { list-style: none; cursor: pointer; padding: 20px 40px 20px 0; position: relative; font: 700 1.06rem/1.4 var(--body); color: var(--ink); }
 .faq summary::-webkit-details-marker { display: none; }
