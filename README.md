@@ -1,6 +1,6 @@
-# Bankata.AI
+# Lexmedix
 
-The website for the Bankata.AI family of AI work tools: Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS.
+The website for Lexmedix (formerly Bankata.AI), a family of AI work tools: Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS.
 
 Live site: https://lexmedix.in/
 
