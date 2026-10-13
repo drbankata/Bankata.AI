@@ -415,6 +415,7 @@ body.menu-open { overflow: hidden; }
 .feat { display: grid; gap: 16px; }
 @media (min-width: 700px) { .feat { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1100px) { .feat { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+@media (min-width: 1100px) { .feat.feat-pairs { grid-template-columns: repeat(2, 1fr); } }
 .feat div { padding: 24px; border-radius: var(--r); background: linear-gradient(160deg, var(--ct), var(--white) 65%); border: 1px solid color-mix(in srgb, var(--c) 18%, transparent); }
 .feat h3 { font-size: 1.1rem; margin-bottom: .4em; }
 .feat h3::before { content: ""; display: block; width: 34px; height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--c), var(--c2)); margin-bottom: 16px; }
