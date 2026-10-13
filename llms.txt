@@ -1,0 +1,39 @@
+# Lexmedix
+
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. From ₹300 per user per month.
+
+Website: https://lexmedix.in/
+Founder: Dr Sudhanshu Bankata
+Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
+
+## Products
+
+- [Facility Management SaaS](https://lexmedix.in/facility-management/): Attendance, payroll, billing and cleaning quality for housekeeping companies, even when workers have no smartphone.
+- [Fullcurebank](https://lexmedix.in/fullcurebank/): Consultations, ward rounds and discharges, written as you work.
+- [Legalbank](https://lexmedix.in/legalbank/): Cases, documents and arguments in one AI workspace for the whole legal team.
+- [Pathbank](https://lexmedix.in/pathbank/): Upload a lab report. Get a clear reading, the flags and the trend.
+- [Radbank](https://lexmedix.in/radbank/): Dictate only what is abnormal. Radbank writes the rest of the report.
+- [Treatbank](https://lexmedix.in/treatbank/): A pile of old prescriptions and reports, turned into one clean patient history.
+
+## Pages
+
+- [Pricing](https://lexmedix.in/pricing/): One price per user, with AI included. Plans for Radbank, Fullcurebank and Pathbank, and quotes for Treatbank, Legalbank and Facility Management SaaS.
+- [Additional Services: consulting led by Dr Sudhanshu Bankata](https://lexmedix.in/services/): Radiology reporting through RadBank Imaging Solutions, NABH and NABL radiology readiness, hospital consulting, websites, medical editing and custom digital tools for doctors, labs and hospitals.
+- [About Dr Sudhanshu Bankata](https://lexmedix.in/about/): Lexmedix was founded by Dr Sudhanshu Bankata: MBBS (Maulana Azad Medical College), MD Radiology (UCMS Delhi), PGP (Indian School of Business), NABH and NABL assessor, former hospital executive director and MD and CEO of RadBank Imaging Solutions.
+- [Contact](https://lexmedix.in/contact/): Book a demo, ask about pricing or get product updates for any Lexmedix product.
+- [Privacy](https://lexmedix.in/privacy/): How the Lexmedix website handles the details you send.
+- [Terms](https://lexmedix.in/terms/): Terms for using the Lexmedix website.
+
+## Profiles
+
+- LinkedIn: https://www.linkedin.com/in/dr-sudhanshu-bankata-3354ba4/
+- YouTube: https://www.youtube.com/@drbankata
+- Instagram: https://www.instagram.com/drbankata/
+- Facebook: https://www.facebook.com/sudhanshu.bankata/
+- X: https://x.com/bankata
+- LinkedIn (company page): https://www.linkedin.com/company/145291597/
+- Facebook (company page): https://www.facebook.com/profile.php?id=61595012924670
+
+## Optional
+
+- [Full details of every product](https://lexmedix.in/llms-full.txt)

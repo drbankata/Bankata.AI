@@ -1,0 +1,179 @@
+# Lexmedix
+
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. From ₹300 per user per month.
+
+Website: https://lexmedix.in/
+Founder: Dr Sudhanshu Bankata
+Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
+
+## Facility Management SaaS
+
+Page: https://lexmedix.in/facility-management/
+
+Facility Management SaaS by Lexmedix is a housekeeping and facility management platform that covers attendance, payroll, billing and cleaning quality, even when workers have no smartphone. Built for Indian facility and housekeeping companies. It links who worked to what work was done and how well, then carries that through to payroll, client invoices and client satisfaction.
+
+### Who it is for
+
+- Housekeeping and facility management companies
+- Site supervisors
+- Clients who want a read-only view of their sites
+
+### What it does
+
+- Attendance: Bulk and voice entry, with unusual patterns flagged automatically.
+- Payroll for India: PF, ESI, overtime and deductions calculated for you.
+- Billing and invoices: Client invoices from attendance, with penalties tied to task quality.
+- Sites and health scores: Staff assignments and a health score for every site.
+- Task engine: SOP-based tasks with photo checks and AI quality scores.
+- AI supervisor: Spots staff shortages and missed tasks across sites.
+- Voice in Hindi and Hinglish: Supervisors give commands and log incidents by speaking.
+- No-smartphone mode: Workers without smartphones can still take part.
+- Inventory: Material tracking, wastage and reorder alerts.
+- Dashboards: An owner dashboard with KPIs and AI insights, and a read-only client dashboard.
+
+### Price
+
+- Pricing on request, sized to the team.
+
+## Fullcurebank
+
+Page: https://lexmedix.in/fullcurebank/
+
+Fullcurebank by Lexmedix is AI clinical decision support and a hospital suite that writes consultations, ward rounds and discharges as you work. A live note builds itself while you take the history and examine the patient. Fullcurebank suggests differentials, investigations and treatment for you to accept or change, then produces the prescription, discharge summary and patient pack.
+
+### Who it is for
+
+- Doctors in OPD and private practice
+- Nursing teams on the wards
+- Hospitals and clinics that want one connected system
+
+### What it does
+
+- Quick OPD: Dictate or type the encounter and get a structured consultation in minutes.
+- Live note: The right-hand panel turns what you enter into a clean clinical record as you go.
+- Differentials you control: Diagnosis suggestions from symptoms and findings. Accept, change or add your own.
+- Red-flag alerts: Warning signs are caught by a rules engine instantly, before any AI call.
+- Prescriptions: Choose drugs, dose, frequency and duration. The prescription is formatted for print, PDF or sharing.
+- Doctor rounds: Ward-round entries, clinical notes and orders for admitted patients.
+- Nurse rounds: Shift notes by voice, medication record, fluid balance, care bundles, handoffs and family updates.
+- Discharge: A full discharge summary, checklist and patient instructions.
+- Patient pack and portal: Multilingual, patient-friendly documents and a portal patients can sign up to.
+- Hospital modules: ER, ICU, OT, pharmacy, lab, blood bank, beds, billing, insurance, infection control, NABH and the MRD Studio add-on.
+
+### Price (the page is the final word)
+
+- ₹300 per user per month
+- Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+
+## Legalbank
+
+Page: https://lexmedix.in/legalbank/
+
+Legalbank by Lexmedix is an AI operating system for legal work: one workspace for cases, documents and arguments, for lawyers, judges, mediators, notaries and corporate legal teams. Legalbank organises matters, reads long case records, frames the issues and helps build arguments and drafts, with dedicated workspaces for lawyers, judges, mediators, notaries and corporate legal teams.
+
+### Who it is for
+
+- Advocates and law firms
+- Judges and court staff
+- Mediators, notaries and in-house legal teams
+
+### What it does
+
+- Cases and matters: Intake, issues, documents, hearings and a calendar for every matter.
+- Document analysis: Ask questions of documents, compare versions, run OCR and translate.
+- Argument builder: Structured arguments and counter-arguments for each issue.
+- Precedents and citations: Find and check precedents and citations for your research.
+- Drafting: Notices, contracts and templates drafted section by section.
+- Judge's bench: Cause list, matter briefs, orders and analytics for judges.
+- Mediation: Pre-briefing, BATNA analysis, impasse diagnosis and settlement agreements.
+- Corporate and notary: Contract and NDA review, compliance, resolutions, stamp duty and notary registers.
+
+### Price
+
+- Pricing on request, sized to the team.
+
+## Pathbank
+
+Page: https://lexmedix.in/pathbank/
+
+Pathbank by Lexmedix is an AI lab report interpreter: you upload or photograph a lab report and it gives a clear reading, the flags and the trend against earlier reports. Photograph or upload any lab report. Pathbank reads it, interprets every value for the patient's age and sex, marks what is urgent and compares it with earlier reports.
+
+### Who it is for
+
+- Doctors reviewing reports
+- Laboratories
+- Patients and caregivers
+
+### What it does
+
+- Photo or PDF upload: Text is read from scanned pages and phone photos as well as digital PDFs.
+- Age- and sex-aware reading: The patient's age, sex and history are used to interpret every parameter.
+- Urgency flags: Values that need attention are marked so nothing important is missed.
+- Trends across reports: Compare several reports side by side with charts of each parameter over time.
+- Ask about the report: Follow-up questions in a chat about that specific report.
+- Share and download: Read-only share links that expire after 72 hours, and PDF downloads.
+- Roles for everyone: Separate views for doctors, labs, patients and caregivers.
+- Quality tools for labs: NABL-oriented quality dashboards for laboratories.
+
+### Price (the page is the final word)
+
+- ₹300 per user per month
+- Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+
+## Radbank
+
+Page: https://lexmedix.in/radbank/
+
+Radbank by Lexmedix is an AI reporting copilot for radiologists and other diagnostic specialists: you dictate only what is abnormal and it writes the rest of the report. Every template opens pre-filled with clinically accurate normal findings. You speak once, the AI updates only the sections your words touch, then checks the report before you sign it.
+
+### Who it is for
+
+- Radiologists and teleradiology teams
+- Pathologists, cardiologists, endoscopists, pulmonologists, ophthalmologists, nuclear medicine
+- Diagnostic centres and hospital imaging departments
+
+### What it does
+
+- Report by exception: Structured templates for CT, MRI, ultrasound and X-ray open with normal defaults. Upload your own templates too.
+- One dictation, routed for you: Say all your findings in one go. The AI works out which sections they belong to and changes only those.
+- Automatic RADS scoring: BI-RADS, LI-RADS, Lung-RADS, TI-RADS, PI-RADS and O-RADS are scored from your findings and added to the impression.
+- Seven-module quality check: Seven independent AI checks look for gaps, clinical logic errors, guideline misses and risk flags before the report leaves your desk.
+- AI second opinion: One click gives a structured second read of your report. Compare, edit and finalise in the same screen.
+- Critical finding alerts: Critical findings flag the study STAT on the worklist and prepare an email and a WhatsApp message for the referring team.
+- Patient pack: A patient-friendly summary of the report in the patient's own language.
+- Fetal medicine module: FMF-compliant NT, nasal bone and tricuspid screening, risk algorithms and INTERGROWTH-21st biometry charts. A paid add-on.
+- Six more specialties: Templates for pathology, cardiology, endoscopy, pulmonology, ophthalmology and nuclear medicine reports.
+- Runs your practice: Worklist, check-in and appointments, GST billing with UPI QR, NABH turnaround tracking, referrer and patient portals, practice analytics.
+- ResearchBank: Turn reports into papers: PubMed-linked literature search, built-in statistical tests, EQUATOR checklists, export to DOCX or LaTeX.
+- Referrer outreach and CME: Awareness content, referrer updates, scan-slot and CME calendars, conference-ready case decks.
+
+### Price (the page is the final word)
+
+- ₹300 per user per month
+- Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+
+## Treatbank
+
+Page: https://lexmedix.in/treatbank/
+
+Treatbank by Lexmedix is a patient history compiler that turns old prescriptions, lab reports, discharge summaries and radiology reports into one clean patient history. Upload prescriptions, lab reports, discharge summaries and radiology reports together. Treatbank extracts the text, even from scans and handwriting, and builds a structured record you can question in a clinical chat.
+
+### Who it is for
+
+- Doctors seeing a new or complex patient
+- Second-opinion and referral clinics
+- Care coordinators
+
+### What it does
+
+- Upload everything at once: PDFs and images of prescriptions, lab reports, discharge summaries and radiology reports.
+- Reads scans and handwriting: Digital PDFs are read instantly; scanned and handwritten pages go through OCR.
+- A structured record: Patient details, chronological history, medications, investigations, diagnoses, summary and future plan.
+- Clinical chat: Ask questions about the compiled history and get answers grounded in it.
+- Export and share: Download the record as a PDF or share it with a link.
+- AI included: AI is part of the plan, so there is nothing extra to set up before you run an analysis.
+
+### Price
+
+- Pricing on request, sized to the team.
+
