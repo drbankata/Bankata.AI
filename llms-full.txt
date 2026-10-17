@@ -1,6 +1,6 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, offline lab and radiology software with a NABL and NABH evidence dashboard and evidence pack. From ₹300 per user per month.
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, offline lab and radiology software with an NABL and NABH evidence dashboard and evidence pack. From ₹300 per user per month.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
@@ -16,7 +16,7 @@ Dxbank by Lexmedix is offline software for laboratories and imaging centres: it 
 
 - Pathology laboratories and collection centres
 - Diagnostic and imaging centres: X-ray, ultrasound, CT, MRI, mammography
-- Quality managers preparing for a NABL or NABH assessment
+- Quality managers preparing for an NABL or NABH assessment
 
 ### What it does
 
