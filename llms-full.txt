@@ -1,6 +1,6 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, offline lab and radiology software with an NABL and NABH evidence dashboard and evidence pack. From ₹300 per user per month.
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, an LIS and RIS for labs and imaging centres with an NABL and NABH evidence dashboard and evidence pack. From ₹300 per user per month.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
@@ -10,7 +10,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 Page: https://lexmedix.in/dxbank/
 
-Dxbank by Lexmedix is offline software for laboratories and imaging centres: it runs registration, billing, results, radiology booking, safety and consent, and reports, and its evidence dashboard and evidence pack show which of your records answer NABL and NABH clauses and where the gaps are. Dxbank runs on your own Windows computer and needs no internet. It handles registration, billing, results, radiology booking, safety and consent, and reports. Its evidence dashboard shows which of your records answer each NABL and NABH clause and where the gaps are, and one button makes an evidence pack for the assessor.
+Dxbank by Lexmedix is an LIS and RIS for laboratories and imaging centres: it runs registration, billing, results, radiology booking, safety and consent, and reports, and its evidence dashboard and evidence pack show which of your records answer NABL and NABH clauses and where the gaps are. Dxbank runs on your own Windows computer and needs no internet. It handles registration, billing, results, radiology booking, safety and consent, and reports. Its evidence dashboard shows which of your records answer each NABL and NABH clause and where the gaps are, and one button makes an evidence pack for the assessor.
 
 ### Who it is for
 
