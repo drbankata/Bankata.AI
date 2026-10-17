@@ -1,10 +1,45 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. From ₹300 per user per month.
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, offline lab and radiology software with NABL and NABH help. From ₹300 per user per month.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
 Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
+
+## Dxbank
+
+Page: https://lexmedix.in/dxbank/
+
+Dxbank by Lexmedix is offline software for laboratories and imaging centres: it runs registration, billing, results, radiology booking, safety and consent, and reports, and it shows which of your records answer NABL and NABH clauses and where the gaps are. Dxbank runs on your own Windows computer and needs no internet. It handles registration, billing, results, radiology booking, safety and consent, and reports. It also shows which of your records answer each NABL and NABH clause, and where the gaps are.
+
+### Who it is for
+
+- Pathology laboratories and collection centres
+- Diagnostic and imaging centres: X-ray, ultrasound, CT, MRI, mammography
+- Quality managers preparing for a NABL or NABH assessment
+
+### What it does
+
+- Registration and billing: A UHID for every patient, a warning for a possible duplicate, discount limits by role, cash, UPI and card, refunds, and receipts on A5 or 80 mm paper.
+- Lab results with flags: Age- and sex-wise reference ranges, high, low and critical flags, calculated tests such as LDL and eGFR, and a second look at a value that seems a typing error.
+- Approval and amendments: A technician enters and a doctor approves. A change after approval makes a new report version with a reason, and the old one is kept.
+- Reports your way: Print or PDF on your letterhead, and share by WhatsApp, Gmail or Outlook on the web. A long report repeats the patient details on every page.
+- Radiology booking: A board of machines and slots, an arrival step, and a clinical indication before the scan. The request card shows the patient's latest creatinine, eGFR and platelets from your lab.
+- Safety, contrast and consent: Safety questions for each type of machine, a doctor's recorded decision on a stop answer, a contrast card with an eGFR warning, consent in several languages and a three-tick time-out.
+- Radiology reports: Preliminary and final reports, a completeness check, and a footer that records who scanned, who took the consent and who signed. A critical finding and the call to the clinician are recorded.
+- PCPNDT safeguards: A Form F register and a printable Form F. Dxbank refuses any text that states the sex of a fetus.
+- Histopathology and cytology: Reports from templates, with Word-report support for doctors who prefer Word. A licence option.
+- NABL and NABH Assessment mode: Choose NABH medical imaging, NABL laboratory or NABL radiology. Each clause code is shown with a short label and the register that answers it. A clause kept on paper gets a place for its scan.
+- Gaps found in your own records: Named checks, such as contrast given without a lot number, a critical result with no call recorded, or equipment with routine work overdue. Each shows a count and the rows.
+- Quality indicators: The mandatory NABH imaging indicators and the ISO 15189 laboratory indicators, month by month, each with its numerator and denominator. A month with nothing to count says no data, never 0%.
+- Registers and quality records: Turnaround, critical results, amendments, peer review, feedback, licences and authorised signatories, plus equipment, staff, EQA rounds, complaints and incidents, with a Due board.
+- Random sample and evidence pack: Ask for ten CT reports from last month and Dxbank picks them with a seed that repeats the pick. One zip holds every register, the indicator sheet and the gap list.
+- Internal quality control: Levey-Jennings charts and Westgard rules with corrective action. A licence option.
+- Analyser, stock and accounts: Add-ons: machine results arrive as entered and a doctor still approves; reagent lots with expiry dates; a sales register your accountant can import.
+
+### Price
+
+- Pricing on request, sized to the team.
 
 ## Facility Management SaaS
 

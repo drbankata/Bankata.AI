@@ -149,7 +149,7 @@
       chips.forEach(function (c, j) { c.setAttribute("aria-pressed", j === i ? "true" : "false"); });
       var r = roles[i];
       result.setAttribute("data-c", r.c);
-      result.innerHTML = '<p class="muted small">Our suggestion</p><h3>' + r.icon + r.name + "</h3><p>" + r.why + '</p><div class="btns"><a class="btn btn-c" href="' + r.page + '">See ' + r.name + '</a><a class="btn btn-line" href="' + r.open + '" target="_blank" rel="noopener">Open the app</a></div>';
+      result.innerHTML = '<p class="muted small">Our suggestion</p><h3>' + r.icon + r.name + "</h3><p>" + r.why + '</p><div class="btns"><a class="btn btn-c" href="' + r.page + '">See ' + r.name + '</a><a class="btn btn-line" href="' + r.open + '"' + (r.ext === false ? '' : ' target="_blank" rel="noopener"') + '>' + (r.olabel || 'Open the app') + '</a></div>';
     };
     chips.forEach(function (c, i) { c.addEventListener("click", function () {
       pick(i);
