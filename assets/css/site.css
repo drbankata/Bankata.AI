@@ -619,6 +619,13 @@ html { overflow-x: clip; }
 .social-big .st b { color: var(--white); }
 .social-big .st em { font-style: normal; font-size: .9rem; overflow-wrap: anywhere; }
 
+/* ---------- Security line under the home product cards ---------- */
+.trust-line { display: flex; gap: 14px; align-items: flex-start; margin: 28px 0 0; padding: 18px 20px; border-radius: var(--r); background: var(--white); border: 1px solid var(--line); color: var(--muted); max-width: 860px; }
+.trust-line > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.trust-line .wi { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; color: var(--white); background: var(--path-d); }
+.trust-line .wi svg { width: 22px; height: 22px; }
+.trust-line .textlink { color: var(--path-d); }
+
 /* ---------- Designer credit ("Designed by", footer) ---------- */
 .made-by { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--mb-line); display: flex; justify-content: center; text-align: center; min-width: 0; }
 .made-by .mb { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; min-height: 44px; justify-content: center; max-width: 100%; color: var(--mb-text); text-decoration: none; overflow-wrap: anywhere; position: relative; }

@@ -21,6 +21,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 - [Additional Services: consulting led by Dr Sudhanshu Bankata](https://lexmedix.in/services/): Radiology reporting through RadBank Imaging Solutions, NABH and NABL radiology readiness, hospital consulting, websites, medical editing and custom digital tools for doctors, labs and hospitals.
 - [About Dr Sudhanshu Bankata](https://lexmedix.in/about/): Lexmedix was founded by Dr Sudhanshu Bankata: MBBS (Maulana Azad Medical College), MD Radiology (UCMS Delhi), PGP (Indian School of Business), NABH and NABL assessor, former hospital executive director and MD and CEO of RadBank Imaging Solutions.
 - [Contact](https://lexmedix.in/contact/): Book a demo, ask about pricing or get product updates for any Lexmedix product.
+- [Security and patient privacy](https://lexmedix.in/security/): How Lexmedix products protect patient records, reports and case files: separate data for every organisation, role-based access, encryption and links that expire.
 - [Privacy](https://lexmedix.in/privacy/): How the Lexmedix website handles the details you send.
 - [Terms](https://lexmedix.in/terms/): Terms for using the Lexmedix website.
 
