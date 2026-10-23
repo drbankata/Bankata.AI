@@ -44,6 +44,7 @@
   --legal: #f5a524; --legal-d: #a16207; --legal-t: #fff1d6;
   --fac: #ff6b35;   --fac-d: #c2410c;   --fac-t: #ffe6dc;
   --dx: #0d9488;    --dx-d: #0f766e;    --dx-t: #d5f5f0;
+  --cb: #2563eb;    --cb-d: #1d4ed8;    --cb-t: #dbe8ff;
 
   --display: "Instrument Serif", Georgia, "Times New Roman", serif;
   --body: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
@@ -63,6 +64,7 @@
 [data-c="legal"] { --c: var(--legal); --cd: var(--legal-d); --ct: var(--legal-t); --c2: #fde68a; }
 [data-c="fac"]   { --c: var(--fac);   --cd: var(--fac-d);   --ct: var(--fac-t);   --c2: #fdba74; }
 [data-c="dx"]    { --c: var(--dx);    --cd: var(--dx-d);    --ct: var(--dx-t);    --c2: #5eead4; }
+[data-c="cb"]    { --c: var(--cb);    --cd: var(--cb-d);    --ct: var(--cb-t);    --c2: #93c5fd; }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 84px; }

@@ -1,6 +1,6 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, an LIS and RIS for labs and imaging centres with an NABL and NABH evidence dashboard and evidence pack. From ₹300 per user per month.
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, an LIS and RIS for labs and imaging centres, and Clinibank, a clinic system, both with an NABL or NABH evidence dashboard and evidence pack. From ₹300 per user per month.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
@@ -8,6 +8,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 ## Products
 
+- [Clinibank](https://lexmedix.in/clinibank/): A clinic system that shows your records against the NABH clinic standards and lists the gaps.
 - [Dxbank](https://lexmedix.in/dxbank/): An LIS and RIS for your lab and imaging centre, with an NABL and NABH evidence dashboard built in.
 - [Facility Management SaaS](https://lexmedix.in/facility-management/): Attendance, payroll, billing and cleaning quality for housekeeping companies, even when workers have no smartphone.
 - [Fullcurebank](https://lexmedix.in/fullcurebank/): Consultations, ward rounds and discharges, written as you work.
@@ -18,7 +19,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 ## Pages
 
-- [Pricing](https://lexmedix.in/pricing/): One price per user, with AI included. Plans for Radbank, Fullcurebank and Pathbank, and quotes for Treatbank, Legalbank, Facility Management SaaS and Dxbank.
+- [Pricing](https://lexmedix.in/pricing/): One price per user, with AI included. Plans for Radbank, Fullcurebank and Pathbank, and quotes for Treatbank, Legalbank, Facility Management SaaS, Dxbank and Clinibank.
 - [Additional Services: consulting led by Dr Sudhanshu Bankata](https://lexmedix.in/services/): Radiology reporting through RadBank Imaging Solutions, NABH and NABL radiology readiness, hospital consulting, websites, medical editing and custom digital tools for doctors, labs and hospitals.
 - [About Dr Sudhanshu Bankata](https://lexmedix.in/about/): Lexmedix was founded by Dr Sudhanshu Bankata: MBBS (Maulana Azad Medical College), MD Radiology (UCMS Delhi), PGP (Indian School of Business), NABH and NABL assessor, former hospital executive director and MD and CEO of RadBank Imaging Solutions.
 - [Contact](https://lexmedix.in/contact/): Book a demo, ask about pricing or get product updates for any Lexmedix product.
