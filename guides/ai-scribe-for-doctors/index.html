@@ -12,7 +12,7 @@
 <meta property="og:title" content="AI Scribe for Doctors in India: How Fullcurebank Works">
 <meta property="og:description" content="Fullcurebank's Conversation OPD listens to the consultation and drafts the note in English. The doctor reviews and ticks what goes in. See how it works.">
 <meta property="og:url" content="https://lexmedix.in/guides/ai-scribe-for-doctors/">
-<meta property="og:image" content="https://lexmedix.in/assets/img/og-image.png?v=acce1d1a">
+<meta property="og:image" content="https://lexmedix.in/assets/img/og-image.png?v=19673991">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="article:published_time" content="2026-10-13T15:23:35+05:30">
@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/css/site.css?v=b859a047">
+<link rel="stylesheet" href="../../assets/css/site.css?v=3e332a51">
 <style>
 .mb-prose{max-width:68ch;overflow-wrap:anywhere}
 .mb-prose img,.mb-proof img{max-width:100%;height:auto}
@@ -38,9 +38,60 @@
 .mb-faq h3{margin-top:1.4em}
 .mb-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem}
 .mb-list li{min-width:0;overflow-wrap:anywhere}
+.mb-article .mb-list .mb-update{padding:1.2em 1.3em;border-radius:16px;background:var(--mist,#f4f2ff);border:1px solid var(--line,#dcd8f3)}
+.mb-article .mb-list .mb-update h2{font-size:clamp(1.35rem,2.6vw,1.7rem);line-height:1.15;margin:0 0 .3em}
+.mb-article .mb-list .mb-update h2 a{text-decoration:none;color:var(--ink,#0f1533)}
+.mb-article .mb-list .mb-update p{margin:.3em 0 0}
+@media (min-width:760px){.mb-article .mb-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* D-57: guides and FAQ pages, one article with a reading column */
+.mb-hero{padding:56px 0 48px}
+.mb-hero h1{font-size:clamp(2.2rem,5.6vw,3.9rem);max-width:22ch;line-height:1.05}
+.mb-hero .lede{margin-bottom:.6em}
+.mb-article{padding:48px 0 72px}
+.mb-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
+.mb-grid>*{min-width:0}
+.mb-body{max-width:780px;font-size:1.07rem}
+.mb-body p,.mb-body ul,.mb-body ol{margin:0 0 1em}
+.mb-body li{margin:.25em 0}
+.mb-body h2{font-size:clamp(1.65rem,3.2vw,2.25rem);line-height:1.12;margin:1.5em 0 .45em;padding-top:.95em;border-top:1px solid var(--line,#dcd8f3);scroll-margin-top:90px}
+.mb-body>h2:first-child{margin-top:0;padding-top:0;border-top:0}
+.mb-body h3{font-size:1.12rem;margin:1.5em 0 .35em}
+.mb-fig{margin:1.6em 0 1.9em}
+.mb-fig img{display:block;width:100%;height:auto;border-radius:16px;box-shadow:0 1px 2px rgba(15,21,51,.06),0 18px 40px -18px rgba(40,30,120,.35);background:var(--mist,#f4f2ff)}
+.mb-fig a{display:block}
+.mb-fig figcaption{font-size:.9rem;color:var(--muted,#565d85);margin-top:.65em;line-height:1.45}
+.mb-body .mb-faq h3{margin:1.6em 0 .4em;padding-left:.7em;border-left:3px solid var(--a1,#6d5bff)}
+.mb-elsewhere{margin-top:2.4em;padding:1.1em 1.3em;border-radius:16px;background:var(--mist,#f4f2ff)}
+.mb-body .mb-elsewhere h2{font-size:1.35rem;margin:0 0 .4em;padding:0;border:0}
+.mb-elsewhere ul{margin:0;padding-left:1.1em}
+.mb-toc{font-size:.92rem;line-height:1.35}
+.mb-toc-h{font-weight:750;color:var(--ink,#0f1533);margin:0 0 .6em;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.mb-toc ol{list-style:none;margin:0;padding:0 0 6px;display:flex;flex-wrap:nowrap;gap:8px;overflow-x:auto;scrollbar-width:thin}
+.mb-toc li{flex:0 0 auto}
+.mb-toc a{display:inline-block;padding:.4em .8em;border-radius:999px;background:var(--mist,#f4f2ff);text-decoration:none;color:var(--ink,#0f1533);white-space:nowrap}
+.mb-cards{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;margin:1.6em 0}
+.mb-card{min-width:0;padding:1.1em 1.2em .3em;border-radius:16px;background:var(--mist,#f4f2ff);border:1px solid var(--line,#dcd8f3);overflow-wrap:anywhere}
+.mb-body .mb-card h2{font-family:var(--body,system-ui);font-weight:750;font-size:1.08rem;line-height:1.3;margin:0 0 .45em;padding:0;border:0}
+.mb-card p{font-size:.98rem}
+.mb-card.has-fig{padding-top:0;overflow:hidden}
+.mb-card .mb-card-fig{margin:0 -1.2em 1em}
+.mb-card .mb-card-fig img{border-radius:0;box-shadow:none;aspect-ratio:3/2;object-fit:cover}
+@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.mb-toc a:hover{background:var(--mist-2,#ebe7ff)}
+@media (min-width:1000px){
+.mb-grid{grid-template-columns:minmax(0,1fr) 270px;gap:64px;align-items:start}
+.mb-grid.mb-one{grid-template-columns:minmax(0,1fr)}
+.mb-side{grid-column:2;grid-row:1;position:sticky;top:96px;max-height:calc(100vh - 120px);overflow:auto;padding:18px 18px 18px 20px;border-left:3px solid var(--line,#dcd8f3)}
+.mb-body{grid-column:1;grid-row:1}
+.mb-toc ol{display:block;overflow:visible;padding:0}
+.mb-toc li{margin:0 0 .5em}
+.mb-toc a{white-space:normal}
+.mb-toc a{display:block;padding:.2em 0;background:none;border-radius:0;color:var(--muted,#565d85)}
+.mb-toc a:hover{background:none;color:var(--signal,#4b3bd9)}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI Scribe for Doctors in India: How Fullcurebank Works","description":"Fullcurebank's Conversation OPD listens to the consultation and drafts the note in English. The doctor reviews and ticks what goes in. See how it works.","datePublished":"2026-10-13T15:23:35+05:30","dateModified":"2026-10-13T15:23:35+05:30","author":{"@type":"Person","name":"Dr Sudhanshu Bankata"},"publisher":{"@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"},"mainEntityOfPage":"https://lexmedix.in/guides/ai-scribe-for-doctors/","image":"https://lexmedix.in/assets/img/og-image.png?v=acce1d1a"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI Scribe for Doctors in India: How Fullcurebank Works","description":"Fullcurebank's Conversation OPD listens to the consultation and drafts the note in English. The doctor reviews and ticks what goes in. See how it works.","datePublished":"2026-10-13T15:23:35+05:30","dateModified":"2026-10-24T15:04:19+05:30","author":{"@type":"Person","name":"Dr Sudhanshu Bankata"},"publisher":{"@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"},"mainEntityOfPage":"https://lexmedix.in/guides/ai-scribe-for-doctors/","image":"https://lexmedix.in/assets/img/og-image.png?v=19673991"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Lexmedix","item":"https://lexmedix.in/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://lexmedix.in/guides/"},{"@type":"ListItem","position":3,"name":"AI Scribe for Doctors in India: How Fullcurebank Works","item":"https://lexmedix.in/guides/ai-scribe-for-doctors/"}]}</script>
 </head>
 <body>
@@ -50,9 +101,10 @@
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span class="sr-only">Open menu</span></button>
 <nav id="site-nav" class="site-nav" aria-label="Main">
 <ul class="nav-top">
-<li class="has-menu"><span class="nav-label" tabindex="0">Products</span><ul class="nav-products"><li><a href="../../radbank/"><span class="pi" data-c="rad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></svg></span><span><b>Radbank</b><small>AI reporting copilot for diagnostic specialists</small></span></a></li><li><a href="../../fullcurebank/"><span class="pi" data-c="fcb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M4.5 3H7.5M14.5 3h3"/><path d="M11 14v2a4.5 4.5 0 0 0 9 0v-1.5"/><circle cx="20" cy="12.5" r="2"/></svg></span><span><b>Fullcurebank</b><small>AI clinical decision support and hospital suite</small></span></a></li><li><a href="../../pathbank/"><span class="pi" data-c="path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v12.5a2 2 0 0 0 4 0V3"/><path d="M10 10.5h4"/><path d="M6 21h12"/></svg></span><span><b>Pathbank</b><small>AI lab report interpreter</small></span></a></li><li><a href="../../treatbank/"><span class="pi" data-c="treat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="11" height="14" rx="1.5"/><path d="M8 20h9.5A1.5 1.5 0 0 0 19 18.5V7"/><path d="M8 7.5h5M8 10.5h5M8 13.5h3"/></svg></span><span><b>Treatbank</b><small>Patient history compiler</small></span></a></li><li><a href="../../legalbank/"><span class="pi" data-c="legal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></svg></span><span><b>Legalbank</b><small>AI operating system for legal work</small></span></a></li><li><a href="../../facility-management/"><span class="pi" data-c="fac"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V5.5A1.5 1.5 0 0 1 5.5 4h7A1.5 1.5 0 0 1 14 5.5V21"/><path d="M14 10h4.5a1.5 1.5 0 0 1 1.5 1.5V21M2.5 21h19"/><path d="M7.5 8h3M7.5 11.5h3M7.5 15h3"/></svg></span><span><b>Facility Management SaaS</b><small>Housekeeping and facility management platform</small></span></a></li></ul></li>
+<li class="has-menu"><span class="nav-label" tabindex="0">Products</span><ul class="nav-products"><li><a href="../../radbank/"><span class="pi" data-c="rad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></svg></span><span><b>Radbank</b><small>AI reporting copilot for diagnostic specialists</small></span></a></li><li><a href="../../fullcurebank/"><span class="pi" data-c="fcb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M4.5 3H7.5M14.5 3h3"/><path d="M11 14v2a4.5 4.5 0 0 0 9 0v-1.5"/><circle cx="20" cy="12.5" r="2"/></svg></span><span><b>Fullcurebank</b><small>AI clinical decision support and hospital suite</small></span></a></li><li><a href="../../pathbank/"><span class="pi" data-c="path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v12.5a2 2 0 0 0 4 0V3"/><path d="M10 10.5h4"/><path d="M6 21h12"/></svg></span><span><b>Pathbank</b><small>AI lab report interpreter</small></span></a></li><li><a href="../../treatbank/"><span class="pi" data-c="treat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="11" height="14" rx="1.5"/><path d="M8 20h9.5A1.5 1.5 0 0 0 19 18.5V7"/><path d="M8 7.5h5M8 10.5h5M8 13.5h3"/></svg></span><span><b>Treatbank</b><small>Patient history compiler</small></span></a></li><li><a href="../../legalbank/"><span class="pi" data-c="legal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></svg></span><span><b>Legalbank</b><small>AI operating system for legal work</small></span></a></li><li><a href="../../facility-management/"><span class="pi" data-c="fac"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V5.5A1.5 1.5 0 0 1 5.5 4h7A1.5 1.5 0 0 1 14 5.5V21"/><path d="M14 10h4.5a1.5 1.5 0 0 1 1.5 1.5V21M2.5 21h19"/><path d="M7.5 8h3M7.5 11.5h3M7.5 15h3"/></svg></span><span><b>Facility Management SaaS</b><small>Housekeeping and facility management platform</small></span></a></li><li><a href="../../dxbank/"><span class="pi" data-c="dx"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7.5 15h9"/></svg></span><span><b>Dxbank</b><small>LIS, RIS and MIS for laboratories and imaging centres</small></span></a></li><li><a href="../../clinibank/"><span class="pi" data-c="cb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M4.5 3H7.5M14.5 3h3"/><path d="M11 14v2a4.5 4.5 0 0 0 9 0v-1.5"/><circle cx="20" cy="12.5" r="2"/></svg></span><span><b>Clinibank</b><small>Clinic management software for every kind of clinic</small></span></a></li></ul></li>
 <li><a href="../../pricing/">Pricing</a></li>
 <li><a href="../../services/">Services</a></li>
+<li><a href="../../guides/">Guides</a></li>
 <li><a href="../../#videos">Videos</a></li>
 <li><a href="../../about/">About</a></li>
 <li><a href="../../contact/">Contact</a></li>
@@ -62,38 +114,26 @@
 </div></header>
 <main id="main" data-mb-post="post_mv6i3vofstm0" data-mb-type="article">
 
-<section class="section dark aurora"><div class="wrap">
+<section class="section dark aurora mb-hero"><div class="wrap">
 <p class="crumbs"><a href="../../">Lexmedix</a> / <a href="../">Guides</a> / AI Scribe for Doctors in India: How Fullcurebank Works</p>
 <h1>AI Scribe for Doctors in India: How Fullcurebank Works</h1>
 <p class="lede">Fullcurebank's Conversation OPD listens to the consultation and drafts the note in English. The doctor reviews and ticks what goes in. See how it works.</p>
-<p class="mb-meta">By Dr Sudhanshu Bankata · <time datetime="2026-10-13">13 October 2026</time></p>
+<p class="mb-meta">By Dr Sudhanshu Bankata · <time datetime="2026-10-13">13 October 2026</time> · 3 min read</p>
 
 </div></section>
 
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
+<section class="section white mb-article"><div class="wrap">
+<div class="mb-grid">
+<aside class="mb-side"><nav class="mb-toc" aria-label="On this page"><p class="mb-toc-h">On this page</p><ol><li><a href="#what-an-ai-scribe-does-in-the-opd">What an AI scribe does in the OPD</a></li><li><a href="#english-hindi-or-hinglish">English, Hindi or Hinglish</a></li><li><a href="#the-doctor-stays-in-charge-of-the-note">The doctor stays in charge of the note</a></li><li><a href="#pause-check-and-record-more">Pause, check and record more</a></li><li><a href="#what-happens-to-the-conversation">What happens to the conversation</a></li><li><a href="#ai-scribe-or-voice-dictation">AI scribe or voice dictation?</a></li><li><a href="#after-the-note">After the note</a></li><li><a href="#what-it-costs">What it costs</a></li><li><a href="#next-step">Next step</a></li></ol></nav></aside>
+<article class="mb-prose mb-body">
 <p>Fullcurebank by Lexmedix is OPD and hospital software for doctors in India, and its Conversation OPD works as an AI scribe for doctors: you talk with the patient as usual, and it builds the consultation note for you. The AI drafts and organises. The doctor still reviews and decides what goes into the record.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>What an AI scribe does in the OPD</h2>
+<figure class="mb-fig"><img src="doctor-at-work.webp" alt="Illustration: a doctor writing notes at her desk beside a laptop, with a lab behind her" width="1122" height="748" loading="lazy" decoding="async"></figure>
+<h2 id="what-an-ai-scribe-does-in-the-opd">What an AI scribe does in the OPD</h2>
 <p>In a busy OPD, the note is often written after the patient has left, or not written fully at all. An AI scribe listens to the consultation and turns it into a structured note, so you can look at the patient instead of the keyboard.</p>
 <p>In Fullcurebank, Conversation OPD listens and then builds the note: complaint, history, examination, medicines and plan. It works in Full, Quick and SOAP OPD, on a phone, a tablet or a desktop.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>English, Hindi or Hinglish</h2>
+<h2 id="english-hindi-or-hinglish">English, Hindi or Hinglish</h2>
 <p>Most Indian consultations switch between languages. With Conversation OPD you can speak in English, Hindi or Hinglish. The note is written in English, and the words as spoken stay available while you work.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>The doctor stays in charge of the note</h2>
+<h2 id="the-doctor-stays-in-charge-of-the-note">The doctor stays in charge of the note</h2>
 <p>Conversation OPD never fills the note on its own. You get a review sheet and tick what to apply, and medicines are ticked one by one.</p>
 <p>A few details matter in daily use:</p>
 <ul>
@@ -102,68 +142,41 @@
 <li>It points out what the conversation did not cover, so a missing section is easy to spot before you finish.</li>
 <li>It can add counselling for you to tick, such as warning signs and when to come back.</li>
 </ul>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>Pause, check and record more</h2>
+<figure class="mb-fig"><a href="/fullcurebank/"><img src="card-fullcurebank.webp" alt="Fullcurebank card: consultations, ward rounds and discharges, written as you work" width="1200" height="630" loading="lazy" decoding="async"></a><figcaption>Fullcurebank on lexmedix.in</figcaption></figure>
+<h2 id="pause-check-and-record-more">Pause, check and record more</h2>
 <p>Consultations don't run in one straight line. You can pause a recording to see what has been heard so far, or see the note so far, then record more or add typed text. You can repeat this as many times as you need. Each recording can run up to 20 minutes, and silence does not stop it.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>What happens to the conversation</h2>
+<h2 id="what-happens-to-the-conversation">What happens to the conversation</h2>
 <p>The raw conversation text is not kept after the consultation is finalised. The finalised record is the note.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>AI scribe or voice dictation?</h2>
+<h2 id="ai-scribe-or-voice-dictation">AI scribe or voice dictation?</h2>
 <p>The two approaches suit different moments.</p>
 <h3>Listening to the conversation</h3>
 <p>An AI scribe listens to the whole consultation and drafts the note from it. This helps when you want to keep talking to the patient and review the note at the end.</p>
 <h3>Dictating the encounter yourself</h3>
 <p>With dictation, you speak or type the encounter in your own words after the examination. Fullcurebank's Quick OPD does this: dictate or type the encounter and get a structured consultation in minutes. Typing instead of recording is always available in Conversation OPD too.</p>
 <p>Many doctors will use both, depending on the patient and the clinic.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>After the note</h2>
+<h2 id="after-the-note">After the note</h2>
 <p>Once the note is ready, the rest of the consultation follows in the same place. The live note on the right turns what you enter into a clean clinical record. Fullcurebank suggests differentials, investigations and treatment for you to accept, change or add to, and red-flag alerts come from a rules engine. Prescriptions carry drug, dose, frequency and duration, and you can print, save a PDF or share. For a returning patient, "Copy Last Rx" brings back the last prescription.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>What it costs</h2>
-<p>The only plan open for subscription is All-Inclusive AI: ₹300 per user per month. Each user gets ₹100 platform access plus ₹200 of AI credits a month. Try it first: ₹100 one-time, which includes ₹50 of AI credits. The <a href="/pricing/">pricing page</a> has the current plans.</p>
-</div>
-</div></section>
-
-<section class="section white"><div class="wrap">
-<div class="mb-prose">
-<h2>Next step</h2>
+<h2 id="what-it-costs">What it costs</h2>
+<p>The only plan open for subscription is All-Inclusive AI: ₹300 per user per month. Try it first: ₹100 one-time. The <a href="/pricing/">pricing page</a> has the current plans.</p>
+<h2 id="next-step">Next step</h2>
 <p>See the features, the videos and the plans on the <a href="/fullcurebank/">Fullcurebank page</a>, and start with the trial if you'd like to try Conversation OPD in your own OPD.</p>
+</article>
 </div>
 </div></section>
 
 </main>
 <footer class="site-foot"><div class="wrap">
 <div class="foot-grid">
-<div><a class="brand" href="../.././" aria-label="Lexmedix home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#6d5bff"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#10b981"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0ea5e9"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#e8458b"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#f5a524"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#ff6b35"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Lexmedix</span></a><p style="margin-top:14px;max-width:34ch">AI work tools for doctors, labs, hospitals, lawyers and facility companies, built in India by a doctor-led team.</p>
+<div><a class="brand" href="../.././" aria-label="Lexmedix home"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><rect x="0" y="0" width="8.5" height="8.5" rx="2.2" fill="#6d5bff"/><rect x="10.75" y="0" width="8.5" height="8.5" rx="2.2" fill="#10b981"/><rect x="21.5" y="0" width="8.5" height="8.5" rx="2.2" fill="#0ea5e9"/><rect x="0" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#e8458b"/><rect x="10.75" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#f5a524"/><rect x="21.5" y="10.75" width="8.5" height="8.5" rx="2.2" fill="#ff6b35"/><rect x="0" y="21.5" width="30" height="8.5" rx="2.2" fill="currentColor"/></svg><span class="brand-word">Lexmedix</span></a><p style="margin-top:14px;max-width:34ch">Lexmedix (lexmedix.in): AI tools for doctors, labs, lawyers and facility teams, and LIS, RIS, MIS and clinic management software with NABL and NABH dashboards built in. Founded by Dr Sudhanshu Bankata.</p>
 <p class="foot-follow">Follow product updates</p><ul class="social" aria-label="Follow Lexmedix"><li><a href="https://www.linkedin.com/in/dr-sudhanshu-bankata-3354ba4/" target="_blank" rel="noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V16M8 7.5v.01M12 16v-3.2a2.3 2.3 0 0 1 4.5 0V16M12 10.5V16"/></svg></a></li><li><a href="https://www.youtube.com/@drbankata" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a></li><li><a href="https://www.instagram.com/drbankata/" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.3 6.7v.01"/></svg></a></li><li><a href="https://www.facebook.com/sudhanshu.bankata/" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)" title="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 21v-8h2.7l.5-3H14V8.2c0-.9.3-1.5 1.6-1.5h1.7V4a20 20 0 0 0-2.5-.2C12.4 3.8 11 5.2 11 7.7V10H8.5v3H11v8z"/></svg></a></li><li><a href="https://x.com/bankata" target="_blank" rel="noopener" aria-label="X (opens in a new tab)" title="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h4l12 16h-4z"/><path d="M20 4l-6.8 7.6M4 20l6.8-7.6"/></svg></a></li></ul></div>
-<div><h4>Products</h4><ul><li><a href="../../radbank/">Radbank</a></li><li><a href="../../fullcurebank/">Fullcurebank</a></li><li><a href="../../pathbank/">Pathbank</a></li><li><a href="../../treatbank/">Treatbank</a></li><li><a href="../../legalbank/">Legalbank</a></li><li><a href="../../facility-management/">Facility Management SaaS</a></li></ul></div>
-<div><h4>Open the apps</h4><ul><li><a href="https://radbank.vercel.app/" target="_blank" rel="noopener">Open Radbank</a></li><li><a href="https://fullcurebank.vercel.app/" target="_blank" rel="noopener">Open Fullcurebank</a></li><li><a href="https://pathbank.vercel.app/" target="_blank" rel="noopener">Open Pathbank</a></li><li><a href="https://treatbank.vercel.app/" target="_blank" rel="noopener">Open Treatbank</a></li><li><a href="https://legalbank.vercel.app/" target="_blank" rel="noopener">Open Legalbank</a></li><li><a href="https://housekeeping-rose.vercel.app/login" target="_blank" rel="noopener">Open Facility Management</a></li></ul></div>
-<div><h4>Company</h4><ul><li><a href="../../about/">About</a></li><li><a href="../../pricing/">Pricing</a></li><li><a href="../../services/">Additional Services</a></li><li><a href="../../contact/">Contact</a></li><li><a href="../../contact/?type=Subscribe%20to%20updates">Get product updates</a></li><li><a href="../../privacy/">Privacy</a></li><li><a href="../../terms/">Terms</a></li></ul></div>
+<div><h4>Products</h4><ul><li><a href="../../radbank/">Radbank</a></li><li><a href="../../fullcurebank/">Fullcurebank</a></li><li><a href="../../pathbank/">Pathbank</a></li><li><a href="../../treatbank/">Treatbank</a></li><li><a href="../../legalbank/">Legalbank</a></li><li><a href="../../facility-management/">Facility Management SaaS</a></li><li><a href="../../dxbank/">Dxbank</a></li><li><a href="../../clinibank/">Clinibank</a></li></ul></div>
+<div><h4>Open the apps</h4><ul><li><a href="https://radbank.vercel.app/" target="_blank" rel="noopener">Open Radbank</a></li><li><a href="https://fullcurebank.vercel.app/" target="_blank" rel="noopener">Open Fullcurebank</a></li><li><a href="https://pathbank.vercel.app/" target="_blank" rel="noopener">Open Pathbank</a></li><li><a href="https://treatbank.vercel.app/" target="_blank" rel="noopener">Open Treatbank</a></li><li><a href="https://legalbank.vercel.app/" target="_blank" rel="noopener">Open Legalbank</a></li><li><a href="https://housekeeping-rose.vercel.app/login" target="_blank" rel="noopener">Open Facility Management</a></li><li><a href="../../contact/?product=dxbank&amp;type=Book%20a%20demo">Book a Dxbank demo</a></li><li><a href="../../contact/?product=clinibank&amp;type=Book%20a%20demo">Book a Clinibank demo</a></li></ul></div>
+<div><h4>Learn</h4><ul><li><a href="../../guides/">Guides</a></li><li><a href="../../faq/">Questions and answers</a></li><li><a href="../../faq/what-is-lexmedix/">What is Lexmedix?</a></li></ul></div>
+<div><h4>Company</h4><ul><li><a href="../../about/">About</a></li><li><a href="../../pricing/">Pricing</a></li><li><a href="../../services/">Additional Services</a></li><li><a href="../../contact/">Contact</a></li><li><a href="../../contact/?type=Subscribe%20to%20updates">Get product updates</a></li><li><a href="../../security/">Security</a></li><li><a href="../../privacy/">Privacy</a></li><li><a href="../../terms/">Terms</a></li></ul></div>
 </div>
 <div class="foot-base"><span>&copy; <span class="num" data-year>2026</span> Lexmedix. All product names belong to their owner.</span><span>Made in India</span></div>
 <div class="made-by"><a class="mb" href="https://lexmedix.in/services/" target="_blank" rel="noopener"><span class="mb-main"><span class="mb-pre">Designed by</span> <span class="mb-name">Dr Sudhanshu Bankata</span> <span class="mb-cred">(MD, PGP)</span><span class="mb-arrow" aria-hidden="true">&#8599;</span></span><span class="mb-sr">, </span><span class="mb-sub">Websites &middot; Healthcare software &middot; AI tools</span><span class="mb-sr"> (opens in a new tab)</span></a></div>
 </div></footer>
-<script src="../../assets/js/site.js?v=73af771f" defer></script>
+<script src="../../assets/js/site.js?v=839da762" defer></script>
 </body>
 </html>
