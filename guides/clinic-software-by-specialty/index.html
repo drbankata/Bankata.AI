@@ -76,7 +76,15 @@
 .mb-card.has-fig{padding-top:0;overflow:hidden}
 .mb-card .mb-card-fig{margin:0 -1.2em 1em}
 .mb-card .mb-card-fig img{border-radius:0;box-shadow:none;aspect-ratio:3/2;object-fit:cover}
-@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+/* D-60: a last card alone in its row spans the row; with a picture it lies on its side (picture left, text right) */
+.mb-cards>.mb-card:last-child:nth-child(odd){grid-column:1/-1}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:1.4em;align-content:center;padding:0 1.3em 0 0}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>*{grid-column:2}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>h2{margin-top:1.1em}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig{grid-column:1;grid-row:1/span 20;margin:1.2em 0 1.2em 1.2em;align-self:center}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig img{aspect-ratio:auto;height:auto;border-radius:12px}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig figcaption{display:none}}
 .mb-toc a:hover{background:var(--mist-2,#ebe7ff)}
 @media (min-width:1000px){
 .mb-grid{grid-template-columns:minmax(0,1fr) 270px;gap:64px;align-items:start}
@@ -91,7 +99,7 @@
 }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Clinic software for dental, eye, AYUSH and other clinics","description":"What dental, eye, skin, IVF, dialysis, AYUSH and other specialty clinics should expect from clinic software, from a radiologist and NABH assessor.","datePublished":"2026-10-24T13:14:48+05:30","dateModified":"2026-10-24T14:32:52+05:30","author":{"@type":"Person","name":"Dr Sudhanshu Bankata"},"publisher":{"@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"},"mainEntityOfPage":"https://lexmedix.in/guides/clinic-software-by-specialty/","image":"https://lexmedix.in/assets/img/og-image.png?v=19673991"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Clinic software for dental, eye, AYUSH and other clinics","description":"What dental, eye, skin, IVF, dialysis, AYUSH and other specialty clinics should expect from clinic software, from a radiologist and NABH assessor.","datePublished":"2026-10-24T13:14:48+05:30","dateModified":"2026-10-24T15:25:24+05:30","author":{"@type":"Person","name":"Dr Sudhanshu Bankata"},"publisher":{"@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"},"mainEntityOfPage":"https://lexmedix.in/guides/clinic-software-by-specialty/","image":"https://lexmedix.in/assets/img/og-image.png?v=19673991"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Lexmedix","item":"https://lexmedix.in/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://lexmedix.in/guides/"},{"@type":"ListItem","position":3,"name":"Clinic software for dental, eye, AYUSH and other clinics","item":"https://lexmedix.in/guides/clinic-software-by-specialty/"}]}</script>
 </head>
 <body>
@@ -118,7 +126,7 @@
 <p class="crumbs"><a href="../../">Lexmedix</a> / <a href="../">Guides</a> / Clinic software for dental, eye, AYUSH and other clinics</p>
 <h1>Clinic software for dental, eye, AYUSH and other clinics</h1>
 <p class="lede">What dental, eye, skin, IVF, dialysis, AYUSH and other specialty clinics should expect from clinic software, from a radiologist and NABH assessor.</p>
-<p class="mb-meta">By Dr Sudhanshu Bankata · <time datetime="2026-10-24">24 October 2026</time> · 4 min read</p>
+<p class="mb-meta">By Dr Sudhanshu Bankata · <time datetime="2026-10-24">24 October 2026</time> · 5 min read</p>
 
 </div></section>
 
@@ -149,13 +157,13 @@
 <div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><img src="spec-physiotherapy.webp" alt="Illustration: A physiotherapist guiding a client through a stretch" width="1200" height="800" loading="lazy" decoding="async"></figure><h2 id="physiotherapy-therapies-and-mental-health">Physiotherapy, therapies and mental health</h2>
 <p>Therapy plans with goals and sessions that use up a package, functional scales and their trends, and home exercise sheets. Speech, occupational therapy and child development forms. For psychiatry, counselling and de-addiction, restricted notes that only the care team can open, with every read recorded, Mental Healthcare Act records, and an OST dispensing register with a witness.</p></div>
 <div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><img src="spec-cardiology.webp" alt="Illustration: A cardiologist beside an echo machine in a modern cardiology room" width="1200" height="800" loading="lazy" decoding="async"></figure><h2 id="ent-cardiology-and-endoscopy">ENT, cardiology and endoscopy</h2>
-<p>The audiogram and tympanogram, hearing-aid trials and sales; ECG, echo, TMT and Holter reports from templates; endoscopy reports with the scope register and the disinfection log; and a day-care surgery list.</p></div>
-<div class="mb-card"><h2 id="occupational-health">Occupational health</h2>
-<p>Employers with their contract tariffs, camps, examination packages, numbered fitness certificates, the periodic examination register and statements for the employer.</p></div>
+<p>The audiogram and tympanogram with the hearing grade worked out, hearing-aid trials and sales; ECG, echo, TMT and Holter reports from templates with the figures calculated; endoscopy reports with the scope register, where a scope can't be used unless its last disinfection passed, and the disinfection log; and a day-care surgery list with the safe-surgery checklist.</p></div>
+<div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><img src="spec-occupational.webp" alt="Illustration: A doctor and a nurse running a health check camp in a modern office lobby" width="1050" height="700" loading="lazy" decoding="async"></figure><h2 id="occupational-health">Occupational health</h2>
+<p>For a clinic that serves companies: employers on file with their contract tariffs, health camps run from a camp desk, examination packages billed to the employer, numbered fitness certificates, the periodic examination register with due lists, and statements for each employer. The employer should see only the verdict and the next due date unless the employee agrees to share more.</p></div>
 <div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><img src="spec-ayush.webp" alt="Illustration: A vaidya in consultation in a calm Ayurveda wellness centre" width="1200" height="800" loading="lazy" decoding="async"></figure><h2 id="ayush">AYUSH</h2>
-<p>A prakriti record and the Ayurveda and homoeopathy case-taking forms, Panchakarma plans by day with a session board by room and therapist, and an AYUSH medicine store.</p></div>
-<div class="mb-card"><h2 id="polyclinics">Polyclinics</h2>
-<p>A clinic that runs several specialties needs all of its modules in one system, with one patient record across them. Paying only for the specialties you run makes sense.</p></div>
+<p>A prakriti record and the Ayurveda and homoeopathy case-taking forms, Panchakarma plans by day with a session board by room and therapist, a booking that is stopped when the room or the therapist is busy, the session record with vitals and consent, and an AYUSH medicine store with the classical or proprietary details of each medicine.</p></div>
+<div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><img src="spec-polyclinic.webp" alt="Illustration: The reception and waiting area of a modern multi-specialty polyclinic" width="1050" height="700" loading="lazy" decoding="async"></figure><h2 id="polyclinics">Polyclinics</h2>
+<p>A clinic that runs several specialties needs all of its modules in one system, with one patient record across them. The front desk should book and queue patients for every department from one screen, and a patient seen by two doctors should have one history, one bill and one set of lab and imaging reports. The owner's MIS should cover all the departments together. Paying only for the specialties you run makes sense.</p></div>
 <div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><img src="nabh-nabl-evidence.webp" alt="Illustration: a checklist under a magnifying glass beside a records folder, linked to a lab bench and a clinic desk" width="1122" height="748" loading="lazy" decoding="async"></figure><h2 id="where-nabh-comes-in">Where NABH comes in</h2>
 <p>NABH has separate standards for allopathic clinics, small healthcare organisations, dental, eye care, ART and AYUSH. A clinic preparing for one of them should be able to see each clause against its own records and registers, with the gaps listed, and put an evidence pack together for the assessor. As with any software, this shows you where your records are. It doesn't make you compliant. The assessor decides.</p></div>
 <div class="mb-card has-fig"><figure class="mb-fig mb-card-fig"><a href="/clinibank/"><img src="card-clinibank.webp" alt="Clinibank card: a clinic system that shows your records against the NABH clinic standards and lists the gaps" width="1200" height="630" loading="lazy" decoding="async"></a><figcaption>Clinibank on lexmedix.in</figcaption></figure><h2 id="what-my-team-built">What my team built</h2>
