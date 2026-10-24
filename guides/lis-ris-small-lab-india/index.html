@@ -76,7 +76,15 @@
 .mb-card.has-fig{padding-top:0;overflow:hidden}
 .mb-card .mb-card-fig{margin:0 -1.2em 1em}
 .mb-card .mb-card-fig img{border-radius:0;box-shadow:none;aspect-ratio:3/2;object-fit:cover}
-@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+/* D-60: a last card alone in its row spans the row; with a picture it lies on its side (picture left, text right) */
+.mb-cards>.mb-card:last-child:nth-child(odd){grid-column:1/-1}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:1.4em;align-content:center;padding:0 1.3em 0 0}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>*{grid-column:2}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>h2{margin-top:1.1em}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig{grid-column:1;grid-row:1/span 20;margin:1.2em 0 1.2em 1.2em;align-self:center}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig img{aspect-ratio:auto;height:auto;border-radius:12px}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig figcaption{display:none}}
 .mb-toc a:hover{background:var(--mist-2,#ebe7ff)}
 @media (min-width:1000px){
 .mb-grid{grid-template-columns:minmax(0,1fr) 270px;gap:64px;align-items:start}
@@ -91,7 +99,7 @@
 }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Choosing an LIS and RIS for a small lab or imaging centre","description":"A radiologist and NABH and NABL assessor on what a small lab or imaging centre should check in an LIS and RIS, from results to NABL and NABH readiness.","datePublished":"2026-10-24T12:55:15+05:30","dateModified":"2026-10-24T14:33:42+05:30","author":{"@type":"Person","name":"Dr Sudhanshu Bankata"},"publisher":{"@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"},"mainEntityOfPage":"https://lexmedix.in/guides/lis-ris-small-lab-india/","image":"https://lexmedix.in/assets/img/og-image.png?v=19673991"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Choosing an LIS and RIS for a small lab or imaging centre","description":"A radiologist and NABH and NABL assessor on what a small lab or imaging centre should check in an LIS and RIS, from results to NABL and NABH readiness.","datePublished":"2026-10-24T12:55:15+05:30","dateModified":"2026-10-24T15:25:34+05:30","author":{"@type":"Person","name":"Dr Sudhanshu Bankata"},"publisher":{"@type":"Organization","name":"Lexmedix","url":"https://lexmedix.in"},"mainEntityOfPage":"https://lexmedix.in/guides/lis-ris-small-lab-india/","image":"https://lexmedix.in/assets/img/og-image.png?v=19673991"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Lexmedix","item":"https://lexmedix.in/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://lexmedix.in/guides/"},{"@type":"ListItem","position":3,"name":"Choosing an LIS and RIS for a small lab or imaging centre","item":"https://lexmedix.in/guides/lis-ris-small-lab-india/"}]}</script>
 </head>
 <body>
@@ -140,7 +148,7 @@
 <p>For CT and MRI, the safety questions, the contrast details and the consent are records an assessor looks at closely. Good software asks the safety questions for each type of machine, records the doctor's decision when an answer is a stop, puts the patient's latest creatinine and eGFR from your own lab on the request, and keeps the consent and the time-out with the study.</p>
 <p>For ultrasound in India, it should keep the Form F register and refuse any text that states the sex of a fetus.</p></div>
 <div class="mb-card"><h2 id="critical-results-should-leave-a-trail">Critical results should leave a trail</h2>
-<p>When a result or a scan finding is critical, someone has to be called. The software should record whom the call went to, when, and how many minutes it took. An assessor will ask to see this.</p></div>
+<p>When a result or a scan finding is critical, someone has to be called. The software should stop the person approving until they record whom the call went to and when, and count how many minutes it took against your own target. Anyone should be able to mark a result critical, but nobody should be able to unmark one that is critical by its number. An assessor will ask to see this, so a critical result with no call recorded should show up as a gap.</p></div>
 <div class="mb-card"><h2 id="the-owner-needs-mis-too">The owner needs MIS too</h2>
 <p>If you own the centre, you need your numbers without a month-end spreadsheet: daily collection by payment mode and by user, dues, cancelled bills and refunds, discounts given, test counts by department, the referrer summary and pending results. All of it should print and export.</p></div>
 <div class="mb-card"><h2 id="your-data-should-stay-with-you">Your data should stay with you</h2>
