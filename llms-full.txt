@@ -1,6 +1,6 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, an LIS and RIS for labs and imaging centres, and Clinibank, a clinic system, both with an NABL or NABH evidence dashboard and evidence pack. From ₹300 per user per month.
+> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, a very advanced LIS, RIS and MIS for labs and imaging centres, and Clinibank, clinic management software for every kind of clinic, both with NABL and NABH dashboards and evidence packs built in. From ₹300 per user per month.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
@@ -10,19 +10,19 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 Page: https://lexmedix.in/clinibank/
 
-Clinibank by Lexmedix is a clinic system for stand-alone clinics and centres: appointments, consultation, prescriptions, billing and registers, with an Assessment page that shows which of your records answer the NABH clinic standards and where the gaps are. Clinibank runs on your own Windows computer and needs no internet. It handles appointments, consultation, prescriptions, billing, lab and imaging, and the registers a clinic must keep. Its Assessment page shows which of your records answer each NABH clause for your kind of centre, and one button makes an evidence pack for the assessor.
+Clinibank by Lexmedix is clinic management software, a clinic information system, for every kind of clinic, with modules for eighteen specialties, from dental, eye care and AYUSH to IVF, dialysis and psychiatry: appointments, consultation, prescriptions, billing, lab and imaging, registers and MIS, and built-in NABH dashboards and evidence packs that show which of your records answer each clause and where the gaps are. Clinibank runs your clinic on your own Windows computer and needs no internet. It handles appointments, consultation, prescriptions, billing, lab and imaging, MIS and the registers a clinic must keep, with modules for eighteen specialties, from dental, eye care and AYUSH to IVF, dialysis and psychiatry. Built in as a premier feature, its NABH dashboards show which of your records answer each clause for your kind of centre, and one button makes an evidence pack for the assessor.
 
 ### Who it is for
 
 - Dental, eye, skin, IVF, dialysis, diabetes, physiotherapy and other specialty clinics
-- Single- and multi-specialty clinics, polyclinics and day-care centres
+- Single- and multi-specialty clinics, polyclinics, day-care centres and every other kind of clinic
 - Clinic owners preparing for an NABH clinic assessment
 
 ### What it does
 
+- Specialties it covers: Dental. Eye care and ophthalmology, with an optical store. Skin, hair and aesthetics. IVF and ART. Dialysis. Oncology day care. Diabetes and endocrinology. Nutrition, diet and weight loss. Paediatrics and child development. Obstetrics and gynaecology. Physiotherapy and rehabilitation. Speech, occupational and other therapies. Psychiatry, psychology, counselling and de-addiction. ENT, with a hearing-aid store. Cardiology. Endoscopy. Occupational health. AYUSH: Ayurveda with Panchakarma, and homoeopathy. Also general and family practice clinics, and polyclinics that combine any of these. Each specialty is a module, so you pay only for the ones you use.
 - Everything in Dxbank: Registration, billing, lab and radiology, reports by print, PDF and WhatsApp, backups and MIS. Clinibank is built on Dxbank, so the NABL and NABH imaging and laboratory evidence tools are all there.
 - The clinic day: Appointments and a queue, consultation with specialty forms, prescriptions, procedures and treatment plans, packages and sessions, day care, a pharmacy or optical store, and recall.
-- Eighteen kinds of centre: Dental, eye, skin and aesthetic, IVF and ART, oncology day care, dialysis, diabetes, paediatric, obstetrics, physiotherapy, ENT, cardiology, occupational health, Ayurveda and homeopathy, psychiatry, endoscopy, weight loss and general clinics. Each is a module, so you pay only for yours.
 - NABH Assessment page for clinics: Pick the standard for your centre: Allopathic Clinics 2nd edition, Small Healthcare Organisations 3rd edition, Dental, Entry Level Dental, Eye Care, ART Clinics, Ayush Treatment and Wellness, or Entry Level Ayush. Every clause code gets a short label, its level (core, commitment, achievement or excellence), the register that answers it and a live count.
 - Digital health self-check: A page built on the NABH Digital Health Standards for Clinic Management Systems. Every element shows its status, the screen that answers it and a note, and it says plainly which need the network and which Clinibank does not do.
 - Fourteen clinic gap checks: Consultation notes left unsigned, a procedure with no consent or time-out, allergy not asked, a high-risk medicine not double-checked, expired stock, a scope not disinfected, a day with no biomedical waste entry. Each shows a count and the rows.
@@ -38,7 +38,7 @@ Clinibank by Lexmedix is a clinic system for stand-alone clinics and centres: ap
 
 Page: https://lexmedix.in/dxbank/
 
-Dxbank by Lexmedix is an LIS and RIS for laboratories and imaging centres: it runs registration, billing, results, radiology booking, safety and consent, and reports, and its evidence dashboard and evidence pack show which of your records answer NABL and NABH clauses and where the gaps are. Dxbank runs on your own Windows computer and needs no internet. It handles registration, billing, results, radiology booking, safety and consent, and reports. Its evidence dashboard shows which of your records answer each NABL and NABH clause and where the gaps are, and one button makes an evidence pack for the assessor.
+Dxbank by Lexmedix is a very advanced LIS, RIS and MIS for laboratories and imaging centres: it runs registration, billing, results, radiology booking, safety and consent, reports and MIS, and its built-in NABL and NABH dashboards and evidence packs show which of your records answer each clause and where the gaps are. Dxbank runs your lab and imaging centre on your own Windows computer and needs no internet. It handles registration, billing, results, radiology booking, safety and consent, reports and MIS. Built in as a premier feature, its NABL and NABH dashboards show which of your records answer each clause and where the gaps are, and one button makes an evidence pack for the assessor.
 
 ### Who it is for
 
@@ -57,7 +57,7 @@ Dxbank by Lexmedix is an LIS and RIS for laboratories and imaging centres: it ru
 - Radiology reports: Preliminary and final reports, a completeness check, and a footer that records who scanned, who took the consent and who signed. A critical finding and the call to the clinician are recorded.
 - PCPNDT safeguards: A Form F register and a printable Form F. Dxbank refuses any text that states the sex of a fetus.
 - Histopathology and cytology: Reports from templates, with Word-report support for doctors who prefer Word. A licence option.
-- NABL and NABH evidence dashboard (the Assessment page): Choose NABH medical imaging (2nd edition), NABL laboratory or NABL radiology (ISO 15189:2022). Every clause code is shown with a short label, the register or screen that answers it and a live count of your records. A clause kept on paper gets a place for its scan. It gives no score and never says you comply.
+- NABL and NABH dashboards and evidence packs (the Assessment page): Choose NABH medical imaging (2nd edition), NABL laboratory or NABL radiology (ISO 15189:2022). Every clause code is shown with a short label, the register or screen that answers it and a live count of your records. A clause kept on paper gets a place for its scan. It gives no score and never says you comply.
 - Thirteen named gap checks: Contrast given without a lot number, a critical result with no call recorded, equipment with routine work overdue, a staff radiation badge with no reading, a licence that has run out, a non-conformity past its date, a month with no audit, a scan with no consent, dose or time-out, an EQA result with no action. Each shows a count and the rows.
 - Non-conformity and corrective action: An incident, complaint, non-conformity or sentinel event cannot be closed until the correction, the corrective action and the check that it worked are all written down.
 - Quality indicators: The twelve mandatory NABH imaging indicators and the ISO 15189 laboratory indicators (rejected samples, reports on time, critical results told in time, amended reports, rejected QC runs, EQA not acceptable, complaints), month by month, each with its numerator and denominator. A month with nothing to count says no data, never 0%.
