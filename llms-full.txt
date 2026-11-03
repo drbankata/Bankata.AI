@@ -6,6 +6,38 @@ Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
 Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
+## Callbank
+
+Page: https://lexmedix.in/callbank/
+
+Callbank by Lexmedix is an AI voice call desk for labs, clinics and hospitals: it answers your phone in Hindi, English and Bangla, takes appointment, callback and complaint requests for your front desk, and is linked to your own records. Callbank answers your published number on a dedicated line. It gives the facts you have approved, finds the right doctor or department, takes appointment, callback and complaint requests for your front desk, and tells a caller whether a report is ready after checking who is asking. Linked to Dxbank or Clinibank it reads only the minimum it needs from your own program; without a link it works from your approved answers and the lists you give us.
+
+### Who it is for
+
+- Laboratories and imaging centres that lose calls about reports, timings and prices
+- Clinics and hospitals whose front desk is busy answering the same questions
+- Owners who want complaints, callbacks and call volume on record for an assessor
+
+### What it does
+
+- Answers in the caller's language: Hindi, English and Bangla. The agent follows the language the caller speaks and says your facility name the way each language says it.
+- Facts you approved: We build the answers from your price list, timings and policies. You approve every answer on your own screen before the call desk may say it, and can correct a fact or add one at any time. You can download all your answers.
+- Finds the doctor or department: Doctor, department, day and language, from your linked program or your lists. It never promises a time it was not shown.
+- Requests for your front desk: Appointment, reschedule, cancel, callback and complaint requests land in a Call Desk screen with the caller's words. A linked program shows them for staff to accept, so nothing changes in your records without your people.
+- Appointments offered from open slots: From the slots your program shares, the agent offers up to three open ones, records the choice, and says only that a request is made until your staff confirm.
+- Report status with an identity check: A caller is asked for a second detail, a wrong answer is counted, and repeated wrong answers stop the call from saying more. Every disclosure is written to an audit trail. The agent never reads out a result.
+- Emergencies: Any suspected emergency gets one instruction: hang up and call your emergency number. The agent gives no medical advice and does not diagnose.
+- Complaints with a deadline: Each complaint gets the deadline you set and is flagged to the owner when it passes.
+- Insights for your manager: A tab in your Call Desk shows calls by day and by hour, how calls ended, how quickly requests are confirmed, the questions the agent could not answer, and report-status answers given without staff time. Print it, or download counts-only files with no phone numbers and no words from any call. Where there are too few calls to read a trend, it says so instead of guessing.
+- Reminders and feedback: Appointment reminders, report-ready calls and feedback calls are planned as lists for staff to run, inside calling hours you confirm.
+- Calls on record, kept safe: A recording notice you approve, transcripts stored with long numbers removed, a retention period you set, and export and deletion on request.
+- Call minutes you control: Prepaid call minutes with a balance, alerts as they run low, and a top-up from your own screen. At an empty balance you choose whether callers hear that the desk is unavailable or are still answered.
+- Tested before every change: Every new version of the agent must pass a written test suite, including emergency, identity-check and no-advice cases, before we use it for clients.
+
+### Price
+
+- Pricing on request, sized to the team.
+
 ## Clinibank
 
 Page: https://lexmedix.in/clinibank/
