@@ -8,7 +8,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 ## Products
 
-- [Callbank](https://lexmedix.in/callbank/): An AI voice call desk that answers your phone in Hindi, English and Bangla, and is linked to your own records.
+- [Callbank](https://lexmedix.in/callbank/): An AI voice call desk that answers your phone in Hindi, English and any regional language of your choice, and is linked to your own records.
 - [Clinibank](https://lexmedix.in/clinibank/): A clinic management and clinic information system for every kind of clinic, with NABH dashboards and evidence packs built in.
 - [Dxbank](https://lexmedix.in/dxbank/): A very advanced LIS, RIS and MIS for your lab and imaging centre, with NABL and NABH dashboards and evidence packs built in.
 - [Facility Management SaaS](https://lexmedix.in/facility-management/): Attendance, payroll, billing and cleaning quality for housekeeping companies, even when workers have no smartphone.

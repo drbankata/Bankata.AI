@@ -10,7 +10,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 Page: https://lexmedix.in/callbank/
 
-Callbank by Lexmedix is an AI voice call desk for labs, clinics and hospitals: it answers your phone in Hindi, English and Bangla, takes appointment, callback and complaint requests for your front desk, and is linked to your own records. Callbank answers your published number on a dedicated line. It gives the facts you have approved, finds the right doctor or department, takes appointment, callback and complaint requests for your front desk, and tells a caller whether a report is ready after checking who is asking. Linked to Dxbank or Clinibank it reads only the minimum it needs from your own program; without a link it works from your approved answers and the lists you give us.
+Callbank by Lexmedix is an AI voice call desk for labs, clinics and hospitals: it answers your phone in Hindi, English and any regional language of your choice, takes appointment, callback and complaint requests for your front desk, and is linked to your own records. Callbank answers your published number on a dedicated line. It gives the facts you have approved, finds the right doctor or department, takes appointment, callback and complaint requests for your front desk, and tells a caller whether a report is ready after checking who is asking. Linked to Dxbank or Clinibank it reads only the minimum it needs from your own program; without a link it works from your approved answers and the lists you give us.
 
 ### Who it is for
 
@@ -20,7 +20,7 @@ Callbank by Lexmedix is an AI voice call desk for labs, clinics and hospitals: i
 
 ### What it does
 
-- Answers in the caller's language: Hindi, English and Bangla. The agent follows the language the caller speaks and says your facility name the way each language says it.
+- Answers in the caller's language: Hindi, English and any regional language of your choice. The agent follows the language the caller speaks and says your facility name the way each language says it.
 - Facts you approved: We build the answers from your price list, timings and policies. You approve every answer on your own screen before the call desk may say it, and can correct a fact or add one at any time. You can download all your answers.
 - Finds the doctor or department: Doctor, department, day and language, from your linked program or your lists. It never promises a time it was not shown.
 - Requests for your front desk: Appointment, reschedule, cancel, callback and complaint requests land in a Call Desk screen with the caller's words. A linked program shows them for staff to accept, so nothing changes in your records without your people.
