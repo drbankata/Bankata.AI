@@ -1,6 +1,6 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, a very advanced LIS, RIS and MIS for labs and imaging centres, and Clinibank, clinic management software for every kind of clinic, both with NABL and NABH dashboards and evidence packs built in. From ₹300 per user per month.
+> Ten Lexmedix products. Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS turn what you say or upload into finished, checked work, and Callbank is an AI voice call desk for clinics, labs and hospitals of any size. Dxbank (LIS, RIS and MIS), Clinibank (clinic management) and Hospibank (the complete hospital information system and EMR) run on your own computers, with NABL and NABH dashboards and evidence packs built in. From ₹300 per user per month for the AI apps.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
@@ -10,28 +10,33 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 Page: https://lexmedix.in/callbank/
 
-Callbank by Lexmedix is an AI voice call desk for labs, clinics and hospitals: it answers your phone in Hindi, English and any regional language of your choice, takes appointment, callback and complaint requests for your front desk, and is linked to your own records. Callbank answers your published number on a dedicated line. It gives the facts you have approved, finds the right doctor or department, takes appointment, callback and complaint requests for your front desk, and tells a caller whether a report is ready after checking who is asking. Linked to Dxbank or Clinibank it reads only the minimum it needs from your own program; without a link it works from your approved answers and the lists you give us.
+Callbank by Lexmedix is an AI voice call desk for any clinic, practice, lab, radiology centre or hospital, of any size: it answers your phone in Hindi, English and any regional language of your choice, takes appointment, callback and complaint requests for your front desk, works without any of our software, and is integrated with Hospibank, Clinibank and Dxbank. It answers your published number on a dedicated line, gives the facts you have approved, finds the right doctor or department, and tells a caller whether a report is ready after checking who is asking. When linked to your program it reads only the minimum it needs. For a hospital it becomes a front-desk CRM, with every caller's request, complaint and callback on record.
 
 ### Who it is for
 
-- Laboratories and imaging centres that lose calls about reports, timings and prices
-- Clinics and hospitals whose front desk is busy answering the same questions
+- Hospitals of any size whose OPD phones ring all day, and who want every request and complaint on record
+- Clinics, solo practices, laboratories and radiology centres that lose calls about reports, timings and prices
 - Owners who want complaints, callbacks and call volume on record for an assessor
 
 ### What it does
 
+- Needs none of our software: Callbank works for any clinic, practice, lab, radiology centre or hospital, whatever software you use or none. Nothing is installed at your place: your staff open the Call Desk in a browser, and the agent answers from your approved answers and the doctor, department and report lists you load.
+- A front-desk CRM for hospitals: Every caller's request, complaint and callback is on record with the caller's words and the time, and each callback carries its topic. Your departments, OPD doctors, consultation fees, health-check packages and department hours are in one place, and complaints carry the deadline you set.
+- Integrated with Hospibank: Linked to Hospibank, the agent knows your OPD doctors and their departments, open slots, fees, packages, department hours and staff lines, and can tell an outpatient whether a lab or radiology report is ready. Appointment requests become real OPD bookings once your staff confirm, and complaints and callbacks go into the hospital's quality register. Nothing about an admission, a result, a diagnosis or a bill is ever sent.
+- Integrated with Clinibank and Dxbank: Linked to Clinibank, it offers open slots and your staff confirm them into the clinic's appointment book, and attended and missed visits drive reminders and recall. Linked to Dxbank, it gives live report status, and a report held for payment is never called ready.
 - Answers in the caller's language: Hindi, English and any regional language of your choice. The agent follows the language the caller speaks and says your facility name the way each language says it.
+- Sends the caller to the right department: A caller who describes a problem is pointed to the department that sees it, from your own list. It routes; it does not diagnose.
 - Facts you approved: We build the answers from your price list, timings and policies. You approve every answer on your own screen before the call desk may say it, and can correct a fact or add one at any time. You can download all your answers.
 - Finds the doctor or department: Doctor, department, day and language, from your linked program or your lists. It never promises a time it was not shown.
 - Requests for your front desk: Appointment, reschedule, cancel, callback and complaint requests land in a Call Desk screen with the caller's words. A linked program shows them for staff to accept, so nothing changes in your records without your people.
-- Appointments offered from open slots: From the slots your program shares, the agent offers up to three open ones, records the choice, and says only that a request is made until your staff confirm.
+- Appointments offered from open slots: From the slots your program shares, the agent offers up to three open ones, records the choice, and says only that a request is made until your staff confirm. Once they confirm or move it, a message to the caller is ready to send by WhatsApp in one click.
 - Report status with an identity check: A caller is asked for a second detail, a wrong answer is counted, and repeated wrong answers stop the call from saying more. Every disclosure is written to an audit trail. The agent never reads out a result.
 - Emergencies: Any suspected emergency gets one instruction: hang up and call your emergency number. The agent gives no medical advice and does not diagnose.
-- Complaints with a deadline: Each complaint gets the deadline you set and is flagged to the owner when it passes.
+- Complaints with a deadline: Each complaint gets the deadline you set, is marked escalated in the Call Desk when it passes, and can be closed only with a reason.
 - Insights for your manager: A tab in your Call Desk shows calls by day and by hour, how calls ended, how quickly requests are confirmed, the questions the agent could not answer, and report-status answers given without staff time. Print it, or download counts-only files with no phone numbers and no words from any call. Where there are too few calls to read a trend, it says so instead of guessing.
 - Reminders and feedback: Appointment reminders, report-ready calls and feedback calls are planned as lists for staff to run, inside calling hours you confirm.
 - Calls on record, kept safe: A recording notice you approve, transcripts stored with long numbers removed, a retention period you set, and export and deletion on request.
-- Call minutes you control: Prepaid call minutes with a balance, alerts as they run low, and a top-up from your own screen. At an empty balance you choose whether callers hear that the desk is unavailable or are still answered.
+- Call minutes you control: Prepaid call minutes with a balance, a warning on your screen as they run low, and a top-up from your own screen. At an empty balance you choose whether callers hear that the desk is unavailable or are still answered.
 - Tested before every change: Every new version of the agent must pass a written test suite, including emergency, identity-check and no-advice cases, before we use it for clients.
 
 ### Price
@@ -160,6 +165,51 @@ Fullcurebank by Lexmedix is AI clinical decision support and a hospital suite th
 
 - ₹300 per user per month
 - Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+
+## Hospibank
+
+Page: https://lexmedix.in/hospibank/
+
+Hospibank by Lexmedix is the complete hospital information system and EMR for hospitals of any bed strength: admission and beds, doctors' orders and notes, nursing and the bedside medicine chart, ICU, emergency, theatre, labour room, blood bank, lab, radiology, pharmacy, billing, insurance, medical records and a full NABH 6th edition suite, on one patient record. It runs on your own server, with a standby computer that keeps a copy, and needs no internet. Its NABH 6th edition suite maps all 639 objective elements to your own records and makes the evidence pack for the assessor. There is no upper bed limit.
+
+### Who it is for
+
+- Hospitals of every size, from 30 beds upward, with no upper bed limit
+- Medical superintendents, quality managers and owners preparing for the NABH 6th edition
+- Hospitals moving from paper or from an older HIS
+
+### What it does
+
+- One program for the whole hospital: OPD, wards, ICU, emergency, theatre, labour room, blood bank, lab, radiology, pharmacy, stores, billing, insurance, medical records, support services and quality, on one patient record. Hospibank is built on Clinibank and Dxbank, so the clinic, laboratory and imaging modules come with it.
+- Admission, transfer, discharge and beds: Admission from OPD, emergency, day care or another hospital, with payer, package and deposit. An IP number and a barcoded wristband, a live bed board, transfers with the bed held, attendant passes, and a discharge checklist with every clearance time-stamped.
+- Doctors' orders, notes and results: Computerised orders for medicines, tests, imaging, procedures, diet, nursing, blood, transfer and discharge, with order sets. Verbal orders need read-back and countersign. Admission and progress notes, referrals, discharge and death summaries, and a results inbox where a critical result must be acknowledged.
+- Decision support that never acts by itself: Checks for allergy, duplicate medicines, interactions, dose range, kidney function, pregnancy, imaging safety, repeated tests and high-alert medicines. They are fixed rules you can read, every override needs a reason, and an alert never changes an order on its own.
+- The whole patient record on one screen: A header and a timeline from 26 sources, newest first, with filters and trend charts. Restricted items stay masked until someone breaks the glass with a reason, and every look is logged.
+- Nursing and the bedside medicine chart: Assessments, care plans and SBAR handover. Vitals with NEWS2, PEWS and MEOWS, intake and output, and the falls, pressure injury, VTE and nutrition risk scores. At the bedside the nurse scans the wristband and the medicine, and a high-alert medicine needs a second nurse.
+- ICU and HDU: Admission and discharge criteria, an hourly flow sheet for ventilator, infusions, GCS, RASS and lines, APACHE II, SOFA and qSOFA with their inputs shown, and care bundles with device days.
+- Emergency and medico-legal cases: One-screen registration with a temporary identity, five-level triage, an emergency board, emergency codes, ambulance handover and a mass-casualty mode. A medico-legal record is sealed once signed, and police copies are numbered.
+- Theatre, anaesthesia, recovery and CSSD: Theatre booking with a clash check, pre-anaesthesia check, consent, site marking and the WHO checklist in order. Implants, swab and instrument counts that stop on a mismatch, an anaesthesia chart, recovery scores, and CSSD that can trace a failed load to every patient it touched.
+- Labour room and newborn: A partograph with alert and action lines, a delivery record for each baby that writes the birth register, paired mother and baby bands, newborn examination, birth doses and NICU care.
+- Chemotherapy, dialysis, therapy and psychiatry on the ward: Chemotherapy cycles on the ward chart, in-patient and peritoneal dialysis, ICU kidney support, and ward therapy. Psychiatry stays are restricted to the care team, with risk assessment, observation orders, Mental Healthcare Act record sheets, restraint reports and ECT.
+- Blood bank: Donors, screening, collection, grouping, components, cross-match, issue and reactions, with release by a second person and a vein-to-vein trace report. Donor records are restricted.
+- Laboratory, radiology and NABL: The full Dxbank LIS and RIS, plus what a hospital laboratory needs for NABL: EQA scoring, measurement uncertainty, method and reference-interval checks, calibration, a competence matrix and point-of-care testing with its own QC.
+- Pharmacy, stores and purchase: A formulary with look-alike and sound-alike pairs and high-alert tags, dispensing to wards, crash carts, ward narcotics, and recalls traced to patients. Several stores, indents, quotations, purchase orders, goods received, consignment implants and vendor payments.
+- Billing, insurance and schemes: Charges come from the care, entered once. Bed days by class, packages, deposits, interim and final bills, approved discounts and GST. TPA pre-authorisation, claims, deductions and settlement with ageing, and the scheme rates and packages you use loaded as packs. A patient or a body is never held for an unpaid bill.
+- Medical records, coding and certificates: File completeness and deficiencies by doctor, retrieval and retention, ICD coding, birth and death registers, the medical certificate of cause of death, and a release-of-information register.
+- Infection control and quality indicators: Surveillance of CAUTI, CLABSI, VAP and SSI, hand hygiene, outbreaks, restricted antibiotics, incidents with root-cause analysis and a medication-error dashboard. All 32 hospital-wide and 18 department indicators of the NABH 6th edition annexure are in one register.
+- NABH 6th edition suite: All 639 objective elements mapped to the records that answer them. Document control, committees and minutes, audits, mock drills, internal assessment, corrective actions and a training matrix. Readiness dashboards, a mock assessment, an evidence pack and a read-only account for a visiting assessor. It gives no score and never says you comply.
+- A quality loop that follows up: Each indicator has an owner and a mid-month watch. When a number slips, Hospibank splits the cause by ward or shift, gives the team a list to fix now, and checks later whether the action held.
+- Support services: Diet lists and the kitchen sheet, linen and housekeeping with bed-clean time, assets, maintenance, calibration and medical gas, ambulance trips, the mortuary with two-person release, and home visits.
+- Staff, roles and reports: 76 built-in role profiles, credentials and privileges, rosters, training and appraisal, a staffing calculator, two-step sign-in that works offline, management dashboards and revenue reports such as ARPOB by ward and in-patient payer mix.
+- Safe records: A signed note, result, dose or summary is changed only as a new version with a reason, every change is audited, and nothing clinical or financial is deleted. Psychiatry, HIV, IVF, medico-legal and VIP records open only to the care team.
+- Your own server, with a standby: Hospibank runs on a Windows server on your hospital network and works without the internet. A standby computer holds a copy, a downtime pack of the medicine chart, orders, beds and allergies is written every 4 hours, and the Cloud Server edition adds encrypted off-site copies.
+- Bring your old records: A migration kit brings in earlier visits, past discharge summaries and folders of old documents, with a trial run and undo, and keeps them out of your census, billing and NABH counts. HL7 and FHIR interfaces connect machines and other systems, and a PACS link opens the images.
+- Tested at 500-bed size: We loaded five years of hospital data (1.8 million patients, 3 million OPD visits) and ran 300 people working at once for 20 minutes on an ordinary 8-core laptop: 82,073 requests, no errors and no lost save. The bed and emergency boards opened in under a tenth of a second.
+- Linked to Callbank: Add Callbank and your phone is answered by an AI call desk that knows your OPD doctors, open slots, fees, packages and department hours, and can tell an outpatient whether a lab or radiology report is ready. Nothing about an admission, a result, a diagnosis or a bill ever leaves Hospibank.
+
+### Price
+
+- Pricing on request, sized to the team.
 
 ## Legalbank
 

@@ -1,6 +1,6 @@
 # Lexmedix
 
-> Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS: six AI apps that turn what you say or upload into finished, checked work. Plus Dxbank, a very advanced LIS, RIS and MIS for labs and imaging centres, and Clinibank, clinic management software for every kind of clinic, both with NABL and NABH dashboards and evidence packs built in. From ₹300 per user per month.
+> Ten Lexmedix products. Radbank, Fullcurebank, Pathbank, Treatbank, Legalbank and Facility Management SaaS turn what you say or upload into finished, checked work, and Callbank is an AI voice call desk for clinics, labs and hospitals of any size. Dxbank (LIS, RIS and MIS), Clinibank (clinic management) and Hospibank (the complete hospital information system and EMR) run on your own computers, with NABL and NABH dashboards and evidence packs built in. From ₹300 per user per month for the AI apps.
 
 Website: https://lexmedix.in/
 Founder: Dr Sudhanshu Bankata
@@ -8,11 +8,12 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 ## Products
 
-- [Callbank](https://lexmedix.in/callbank/): An AI voice call desk that answers your phone in Hindi, English and any regional language of your choice, and is linked to your own records.
+- [Callbank](https://lexmedix.in/callbank/): An AI voice call desk for any clinic, lab or hospital, of any size.
 - [Clinibank](https://lexmedix.in/clinibank/): A clinic management and clinic information system for every kind of clinic, with NABH dashboards and evidence packs built in.
 - [Dxbank](https://lexmedix.in/dxbank/): A very advanced LIS, RIS and MIS for your lab and imaging centre, with NABL and NABH dashboards and evidence packs built in.
 - [Facility Management SaaS](https://lexmedix.in/facility-management/): Attendance, payroll, billing and cleaning quality for housekeeping companies, even when workers have no smartphone.
 - [Fullcurebank](https://lexmedix.in/fullcurebank/): Consultations, ward rounds and discharges, written as you work.
+- [Hospibank](https://lexmedix.in/hospibank/): The complete hospital information system and EMR, for hospitals of any size.
 - [Legalbank](https://lexmedix.in/legalbank/): Cases, documents and arguments in one AI workspace for the whole legal team.
 - [Pathbank](https://lexmedix.in/pathbank/): Upload a lab report. Get a clear reading, the flags and the trend.
 - [Radbank](https://lexmedix.in/radbank/): Dictate only what is abnormal. Radbank writes the rest of the report.
@@ -20,7 +21,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 
 ## Pages
 
-- [Pricing](https://lexmedix.in/pricing/): One price per user, with AI included. Plans for Radbank, Fullcurebank and Pathbank, and quotes for Treatbank, Legalbank, Facility Management SaaS, Dxbank and Clinibank.
+- [Pricing](https://lexmedix.in/pricing/): One price per user, with AI included. Plans for Radbank, Fullcurebank and Pathbank, and quotes for Treatbank, Legalbank, Facility Management SaaS, Dxbank, Clinibank, Hospibank and Callbank.
 - [Additional Services: consulting led by Dr Sudhanshu Bankata](https://lexmedix.in/services/): Radiology reporting through RadBank Imaging Solutions, NABH and NABL radiology readiness, hospital consulting, websites, medical editing and custom digital tools for doctors, labs and hospitals.
 - [About Dr Sudhanshu Bankata](https://lexmedix.in/about/): Lexmedix was founded by Dr Sudhanshu Bankata: MBBS (Maulana Azad Medical College), MD Radiology (UCMS Delhi), PGP (Indian School of Business), NABH and NABL assessor, former hospital executive director and MD and CEO of RadBank Imaging Solutions.
 - [Contact](https://lexmedix.in/contact/): Book a demo, ask about pricing or get product updates for any Lexmedix product.
