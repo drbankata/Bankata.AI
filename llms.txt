@@ -13,7 +13,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 - [Dxbank](https://lexmedix.in/dxbank/): A very advanced LIS, RIS and MIS for your lab and imaging centre, with NABL and NABH dashboards and evidence packs built in.
 - [Facility Management SaaS](https://lexmedix.in/facility-management/): Attendance, payroll, billing and cleaning quality for housekeeping companies, even when workers have no smartphone.
 - [Fullcurebank](https://lexmedix.in/fullcurebank/): Consultations, ward rounds and discharges, written as you work.
-- [Hospibank](https://lexmedix.in/hospibank/): The complete hospital information system and EMR, for hospitals of any size.
+- [Hospibank](https://lexmedix.in/hospibank/): A very advanced, complete EMR for the whole hospital, of any size.
 - [Legalbank](https://lexmedix.in/legalbank/): Cases, documents and arguments in one AI workspace for the whole legal team.
 - [Pathbank](https://lexmedix.in/pathbank/): Upload a lab report. Get a clear reading, the flags and the trend.
 - [Radbank](https://lexmedix.in/radbank/): Dictate only what is abnormal. Radbank writes the rest of the report.
