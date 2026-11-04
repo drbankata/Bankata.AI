@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/site.css?v=3e332a51">
+<link rel="stylesheet" href="../assets/css/site.css?v=c20d4f39">
 <style>
 .mb-prose{max-width:68ch;overflow-wrap:anywhere}
 .mb-prose img,.mb-proof img{max-width:100%;height:auto}
@@ -69,7 +69,15 @@
 .mb-card.has-fig{padding-top:0;overflow:hidden}
 .mb-card .mb-card-fig{margin:0 -1.2em 1em}
 .mb-card .mb-card-fig img{border-radius:0;box-shadow:none;aspect-ratio:3/2;object-fit:cover}
-@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:700px){.mb-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+/* D-60: a last card alone in its row spans the row; with a picture it lies on its side (picture left, text right) */
+.mb-cards>.mb-card:last-child:nth-child(odd){grid-column:1/-1}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:1.4em;align-content:center;padding:0 1.3em 0 0}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>*{grid-column:2}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>h2{margin-top:1.1em}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig{grid-column:1;grid-row:1/span 20;margin:1.2em 0 1.2em 1.2em;align-self:center}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig img{aspect-ratio:auto;height:auto;border-radius:12px}
+.mb-cards>.mb-card.has-fig:last-child:nth-child(odd)>.mb-card-fig figcaption{display:none}}
 .mb-toc a:hover{background:var(--mist-2,#ebe7ff)}
 @media (min-width:1000px){
 .mb-grid{grid-template-columns:minmax(0,1fr) 270px;gap:64px;align-items:start}
@@ -116,7 +124,7 @@
 <section class="section white mb-article"><div class="wrap">
 <!-- mb:updates:start -->
 <ul class="mb-list">
-<li class="mb-update" data-slug="what-is-lexmedix" data-date="2026-10-24" data-title="What is Lexmedix? Our eight work tools" data-desc="Lexmedix is a doctor-led team that builds eight products: six AI apps and two for NABL and NABH work. See what each one does and what it costs."><h2><a href="what-is-lexmedix/">What is Lexmedix? Our eight work tools</a></h2><p class="mb-meta"><time datetime="2026-10-24">24 October 2026</time></p><p>Lexmedix is a doctor-led team that builds eight products: six AI apps and two for NABL and NABH work. See what each one does and what it costs.</p></li>
+<li class="mb-update" data-slug="what-is-lexmedix" data-date="2026-11-04" data-title="What is Lexmedix? Our ten work tools" data-desc="Lexmedix builds ten products: seven AI tools, including the Callbank call desk, and Dxbank, Clinibank and Hospibank for labs, clinics and hospitals."><h2><a href="what-is-lexmedix/">What is Lexmedix? Our ten work tools</a></h2><p class="mb-meta"><time datetime="2026-11-04">4 November 2026</time></p><p>Lexmedix builds ten products: seven AI tools, including the Callbank call desk, and Dxbank, Clinibank and Hospibank for labs, clinics and hospitals.</p></li>
 </ul>
 <!-- mb:updates:end -->
 </div></section>
