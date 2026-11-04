@@ -141,6 +141,26 @@
     }
   }
 
+  /* ---------- product page example tabs (Callbank: hospital, clinic, lab, complaint) ---------- */
+  $$(".board-static").forEach(function (b) {
+    var tabs = $$(".board-tab", b), panes = $$(".board-ex", b);
+    if (tabs.length < 2) return;
+    var pick = function (i, focus) {
+      tabs.forEach(function (t, j) { t.setAttribute("aria-selected", j === i ? "true" : "false"); t.tabIndex = j === i ? 0 : -1; });
+      panes.forEach(function (p, j) { p.classList.toggle("off", j !== i); p.setAttribute("aria-hidden", j === i ? "false" : "true"); });
+      if (focus) tabs[i].focus();
+    };
+    tabs.forEach(function (t, i) {
+      t.addEventListener("click", function () { pick(i); });
+      t.addEventListener("keydown", function (e) {
+        var dir = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+        if (!dir) return;
+        e.preventDefault();
+        pick((i + dir + tabs.length) % tabs.length, true);
+      });
+    });
+  });
+
   /* ---------- role picker ---------- */
   var picker = $(".picker");
   if (picker) {

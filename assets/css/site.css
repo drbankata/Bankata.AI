@@ -229,6 +229,22 @@ body.menu-open { overflow: hidden; }
 .board-key[aria-selected="true"] .pi { filter: none; box-shadow: 0 8px 18px -8px var(--c); }
 .board-key[aria-selected="true"]::after { content: ""; position: absolute; left: 10%; right: 10%; bottom: 0; height: 3px; border-radius: 3px 3px 0 0; background: var(--c); }
 @media (min-width: 640px) { .board-keys { grid-template-columns: repeat(6, 1fr); } .board-key { border-bottom: 0; } .board-key:nth-child(3n) { border-right: 1px solid var(--line); } .board-key:last-child { border-right: 0; } }
+/* Product page audience tabs (Callbank, 2026-11-04): 2 x 2 on phones, one row from 640 px.
+   Panels share one grid cell so the board keeps the tallest panel's height; inactive ones are hidden, not removed. */
+.board-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); background: var(--mist); border-bottom: 1px solid var(--line); }
+.board-tab { appearance: none; border: 0; background: transparent; padding: 12px 8px; min-height: 48px; font: 700 .88rem/1.2 var(--body); color: var(--muted); cursor: pointer; position: relative; min-width: 0; overflow-wrap: anywhere; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.board-tab:nth-child(2n) { border-right: 0; }
+.board-tab:nth-child(n+3) { border-bottom: 0; }
+.board-tab:hover { color: var(--ink); }
+.board-tab[aria-selected="true"] { color: var(--ink); background: var(--white); }
+.board-tab[aria-selected="true"]::after { content: ""; position: absolute; left: 12%; right: 12%; bottom: 0; height: 3px; border-radius: 3px 3px 0 0; background: var(--c); }
+.board-tab:focus-visible { outline: 2px solid var(--c); outline-offset: -3px; }
+@media (min-width: 640px) { .board-tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); } .board-tab { border-bottom: 0; } .board-tab:nth-child(2n) { border-right: 1px solid var(--line); } .board-tab:last-child { border-right: 0; } }
+.board-stack { display: grid; grid-template-columns: minmax(0, 1fr); }
+.board-stack > .board-ex { grid-area: 1 / 1; min-width: 0; }
+.board-stack > .board-ex.off { display: none; }
+/* From 640 px the panels keep one height (no jump beside the hero text); on phones each tab fits its own text, no empty gap. */
+@media (min-width: 640px) { .board-stack > .board-ex.off { display: block; visibility: hidden; } }
 .board-body { padding: 22px; min-height: 340px; }
 @media (min-width: 640px) { .board-body { padding: 28px 30px; } }
 .board-label { font-size: .82rem; font-weight: 700; color: var(--muted); margin: 0 0 8px; display: flex; align-items: center; gap: 8px; letter-spacing: .01em; }
