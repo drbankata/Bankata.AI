@@ -39,6 +39,7 @@ Earlier name: Bankata.AI (the same business; the current name is Lexmedix)
 - Medium: https://medium.com/@drbankata
 - LinkedIn (company page): https://www.linkedin.com/company/lexmedix/
 - Facebook (company page): https://www.facebook.com/profile.php?id=61595012924670
+- Product Hunt (company page): https://www.producthunt.com/products/lexmedix
 
 ## Optional
 

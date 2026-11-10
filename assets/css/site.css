@@ -629,10 +629,21 @@ html { overflow-x: clip; }
 .live-bar em { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 @media (max-width: 639px) {
   .live-grid, .svc-grid, .svc-mini, .cards, .vid-grid, .why, .feat, .for-list, .tele-pts, .extras, .plans { grid-template-columns: minmax(0, 1fr); }
+  /* Phase 40 (owner, option b): on phones the hero buttons come straight after the heading, the lede follows them,
+     so a call to action is on the first screen of every page; same words, desktop order unchanged */
+  .hero-text { display: flex; flex-direction: column; }
+  .hero-text > * { order: 3; }
+  .hero-text > .crumbs, .hero-text > .band-kicker, .hero-text > h1 { order: 0; }
+  .hero-text > .btns { order: 1; margin: 0 0 24px; }
+  .hero-text > .lede { order: 2; margin: 0 0 4px; }
 }
 
 /* ---------- social follow buttons (footer row + Contact block) ---------- */
 .foot-follow { margin: 18px 0 10px; font-weight: 700; color: var(--white); }
+/* the company pages: every sameAs in the JSON-LD is a link here (Phase 40) */
+.foot-org { margin: 14px 0 0; font-size: .92rem; color: var(--on-night-muted); }
+.foot-org a { color: var(--on-night); white-space: nowrap; }
+.foot-org a:hover, .foot-org a:focus-visible { color: var(--white); }
 .social, .foot-grid .social { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .social a { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--glass-line); background: rgba(255,255,255,.05); color: var(--on-night); transition: border-color .2s, background .2s, color .2s; }
 .social a svg { width: 21px; height: 21px; }
@@ -684,8 +695,11 @@ html { overflow-x: clip; }
 .guide-cards a { display: flex; flex-direction: column; height: 100%; background: var(--white); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; text-decoration: none; color: var(--text); box-shadow: var(--lift); transition: transform .15s; }
 .guide-cards a:hover { transform: translateY(-3px); }
 .guide-cards img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+/* a product card with words on it is shown whole on its own night colour, never cropped (Phase 40, D-60) */
+.guide-cards img.g-whole { object-fit: contain; background: #0a0e2b; }
 .g-body { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px 20px; min-width: 0; overflow-wrap: anywhere; }
-.g-kicker { font-size: .78rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; color: var(--signal); }
+/* sentence case, not capitals (audit B4, Phase 40) */
+.g-kicker { font-size: .82rem; font-weight: 750; letter-spacing: .01em; color: var(--signal); }
 .g-body b { font: 400 1.45rem/1.15 var(--display); color: var(--ink); }
 .g-desc { font-size: .97rem; color: var(--muted); }
 .g-body .textlink { margin-top: auto; }
