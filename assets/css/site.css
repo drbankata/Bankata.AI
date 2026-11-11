@@ -670,8 +670,8 @@ html { overflow-x: clip; }
 .trust-line .textlink { color: var(--path-d); }
 
 /* ---------- Designer credit ("Designed by", footer) ---------- */
-.made-by { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--mb-line); display: flex; justify-content: center; text-align: center; min-width: 0; }
-.made-by .mb { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; min-height: 44px; justify-content: center; max-width: 100%; color: var(--mb-text); text-decoration: none; overflow-wrap: anywhere; position: relative; }
+.made-by { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--mb-line); display: flex; justify-content: center; text-align: center; min-width: 0; }
+.made-by .mb { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; min-height: 44px; justify-content: center; max-width: 100%; color: var(--mb-text); text-decoration: none; overflow-wrap: anywhere; position: relative; }
 .made-by .mb:hover { text-decoration: none; color: var(--mb-text); }
 .made-by .mb-main { display: inline-flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 0 .4em; min-width: 0; }
 .made-by .mb-pre { font-family: var(--mb-pre-font); font-style: var(--mb-pre-style, normal); font-size: var(--mb-pre-size, 1.1rem); color: var(--mb-muted); letter-spacing: var(--mb-pre-ls, 0); text-transform: var(--mb-pre-tt, none); }
@@ -684,6 +684,7 @@ html { overflow-x: clip; }
 .made-by .mb:hover .mb-arrow, .made-by .mb:focus-visible .mb-arrow { transform: translate(3px, -3px); }
 .made-by .mb:focus-visible { outline: 2px solid var(--mb-accent); outline-offset: 4px; border-radius: 4px; }
 @media (prefers-reduced-motion: reduce) { .made-by .mb-name, .made-by .mb-arrow { transition: none; } }
+@media (max-width: 480px) { .made-by .mb-dot { display: none; } .made-by .mb-sub { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; } }
 .made-by { --mb-line: var(--glass-line); --mb-text: var(--on-night); --mb-muted: var(--on-night-muted); --mb-accent: var(--marker); --mb-rest: rgba(255,255,255,.28); --mb-pre-font: var(--display); --mb-pre-style: italic; --mb-pre-size: 1.35rem; --mb-name-font: var(--body); --mb-name-weight: 600; --mb-name-color: #fff; --mb-sub-font: var(--body); }
 .made-by .mb:hover .mb-name { text-shadow: 0 0 18px color-mix(in srgb, var(--marker) 55%, transparent); }
 
