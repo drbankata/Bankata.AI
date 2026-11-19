@@ -484,6 +484,17 @@ body.menu-open { overflow: hidden; }
 .about-copy { padding-bottom: 48px; }
 .about-copy blockquote { margin: 26px 0 0; font: 400 1.8rem/1.15 var(--display); color: var(--white); max-width: 26ch; }
 .about-photo { max-width: 470px; margin: 0 auto; width: 100%; filter: drop-shadow(0 30px 50px rgba(0,0,0,.45)); }
+/* About: team member below the founder, deliberately smaller than his section */
+.section.team-sec { padding: 48px 0 56px; }
+.team-card { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; max-width: 760px; align-items: start; }
+.team-card > * { min-width: 0; }
+.team-photo { display: block; width: 96px; height: 96px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 4px var(--white), 0 0 0 5px var(--line); }
+.team-kicker { font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.team-copy h2 { font-size: 1.45rem; margin: 0 0 2px; }
+.team-role { font-weight: 600; color: var(--ink); margin: 0 0 10px; }
+.team-copy p:not(.team-kicker):not(.team-role) { color: var(--text); overflow-wrap: anywhere; }
+.team-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; font-weight: 700; }
+@media (min-width: 640px) { .team-card { grid-template-columns: 112px minmax(0, 1fr); gap: 26px; } .team-photo { width: 112px; height: 112px; } }
 .timeline { list-style: none; padding: 0; margin: 0; border-left: 2px solid var(--line); }
 .timeline li { position: relative; padding: 0 0 24px 26px; }
 .timeline li::before { content: ""; position: absolute; left: -8px; top: .4em; width: 14px; height: 14px; border-radius: 50%; background: var(--white); border: 3px solid var(--a1); }
