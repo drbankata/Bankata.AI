@@ -405,6 +405,8 @@ body.menu-open { overflow: hidden; }
 .plan p { color: var(--text); margin-top: 14px; }
 .extras { display: grid; gap: 14px; margin-top: 18px; }
 @media (min-width: 900px) { .extras { grid-template-columns: repeat(2, 1fr); } }
+/* D-60: a lone last card in the two-column extras grid spans the row (inline auto-fit grids are left alone) */
+@media (min-width: 900px) { .extras:not([style]) > .extra:last-child:nth-child(odd) { grid-column: 1 / -1; } }
 .extra { position: relative; border-radius: var(--r); padding: 20px 22px 20px 26px; background: var(--white); border: 1px solid var(--line); overflow: hidden; }
 .extra::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: linear-gradient(180deg, var(--c2, #ffb547), var(--c, #e8458b)); }
 .extra b { color: var(--ink); font-size: 1.05rem; display: block; }

@@ -165,6 +165,7 @@ Fullcurebank by Lexmedix is AI clinical decision support and a hospital suite th
 
 - ₹300 per user per month
 - Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+- Pay yearly: ₹3,600 per clinical seat per year. One payment covers 12 months, with the same AI credits every month as the monthly plan. Staff seats are ₹1,200 a year. It does not renew by itself. Renew any time before it ends and the new year starts when the current one finishes.
 
 ## Hospibank
 
@@ -265,6 +266,7 @@ Pathbank by Lexmedix is an AI lab report interpreter: you upload or photograph a
 
 - ₹300 per user per month
 - Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+- Pay yearly: ₹3,600 per user per year. One payment covers 12 months, with the same AI credits every month as the monthly plan. It does not renew by itself. Renew any time before it ends and the new year starts when the current one finishes.
 
 ## Radbank
 
@@ -297,6 +299,7 @@ Radbank by Lexmedix is an AI reporting copilot for radiologists and other diagno
 
 - ₹300 per user per month
 - Try it first: ₹100 one-time. Includes ₹50 of AI credits, with every feature unlocked.
+- Pay yearly: ₹3,600 per user per year. One payment covers 12 months, with the same AI credits every month as the monthly plan. It does not renew by itself. Renew any time before it ends and the new year starts when the current one finishes.
 
 ## Treatbank
 
